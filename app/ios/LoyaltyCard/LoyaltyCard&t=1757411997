@@ -1,0 +1,34 @@
+{
+  "status": 1,
+  "error": "",
+  "card": {
+    "is_active": true,
+    "is_cobrand": false,
+    "is_virtual": true,
+    "is_platinum": false,
+    "card_number": "7825686000143824",
+    "card_type": "bonus",
+    "card_status": {
+      "available": [
+        {
+          "name": "Серебряный",
+          "min_amount": 0
+        },
+        {
+          "name": "Золотой",
+          "min_amount": 100
+        },
+        {
+          "name": "Платиновый",
+          "min_amount": 300
+        }
+      ],
+      "current": "Серебряный"
+    },
+    "card_balance": 9955,
+    "bonuses_expiration": [],
+    "amount_current_month": 0,
+    "last_transaction_date": 1721718464,
+    "checksum": "6db4ac1bba498269dc1563606afb8a83"
+  }
+}

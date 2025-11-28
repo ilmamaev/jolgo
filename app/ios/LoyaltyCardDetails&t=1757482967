@@ -1,0 +1,226 @@
+{
+  "status": 1,
+  "error": "",
+  "card": {
+    "is_active": true,
+    "is_cobrand": false,
+    "is_virtual": false,
+    "is_platinum": false,
+    "card_number": "7825689909024232",
+    "card_type": "bonus",
+    "card_status": {
+      "available": [
+        {
+          "name": "Серебряный",
+          "min_amount": 0
+        },
+        {
+          "name": "Золотой",
+          "min_amount": 100
+        },
+        {
+          "name": "Платиновый",
+          "min_amount": 300
+        }
+      ],
+      "current": "Серебряный"
+    },
+    "card_balance": 2849.93,
+    "bonuses_expiration": [],
+    "amount_current_month": 1000,
+    "last_transaction_date": 1756214508,
+    "checksum": "1fc36a17c8d407a184cb6d56b845589b"
+  },
+  "referral": {
+    "title": "Пригласить друга",
+    "description": "+100 бонусов",
+    "url": "https://www3.gpnbonus.ru:443/ma-pages/referral/conditions/?cardNumber=4232",
+    "share_text": "Давайте вместе получим больше бонусов на АЗС. Установите приложение сети АЗС «Газпромнефть» по ссылке ниже, выпустите карту программы лояльности и приезжайте за топливом и дополнительными бонусами. Используйте промокод: 1-6T3S5Y https://gpnbonus.ru/ma/referral/?code=1-6T3S5Y"
+  },
+  "banner": null,
+  "add_controls": [
+    {
+      "title": "Настройте свою выгоду!",
+      "title_color": "#F28B00",
+      "description": "Скидки и бонусы на каждый день",
+      "icon": "https://www3.gpnbonus.ru:443/upload/gpbonus.png",
+      "url": "https://www3.gpnbonus.ru:443/ma-pages/ogon/?utm_source=gpn&utm_medium=partner_widget&utm_campaign=online&utm_content=mobapp&utm_term=bonus_card&productType=PRODUCT_TYPE_SUBSCRIPTION&productId=1000220",
+      "partner_id": "22031999",
+      "advantages": [],
+      "themes": {
+        "light": {
+          "title": {
+            "color": "#F28B00",
+            "bold": true
+          },
+          "description": {
+            "color": "#525252",
+            "bold": false
+          },
+          "advantages": {
+            "color": "#323232",
+            "bold": false
+          }
+        },
+        "dark": {
+          "title": {
+            "color": "#F28B00",
+            "bold": true
+          },
+          "description": {
+            "color": "#FFFFFF",
+            "bold": false
+          },
+          "advantages": {
+            "color": "#FFFFFF",
+            "bold": false
+          }
+        }
+      }
+    },
+    {
+      "title": "Газпром Бонус Премиум",
+      "title_color": "#F78E00",
+      "description": "Увеличенный % начисления бонусов",
+      "icon": "https://www3.gpnbonus.ru:443/upload/gpbonus-premium-active.png",
+      "url": "https://www3.gpnbonus.ru:443/ma-pages/ogon/?utm_source=gpn&utm_medium=partner_widget&utm_campaign=online&utm_content=mobapp&utm_term=bonus_card&productType=PRODUCT_TYPE_SUBSCRIPTION&productId=1000220",
+      "partner_id": "22031999",
+      "advantages": [
+        {
+          "icon": "https://www3.gpnbonus.ru:443/upload/gpbonus-a1.png",
+          "description": "Заправка любым топливом"
+        },
+        {
+          "icon": "https://www3.gpnbonus.ru:443/upload/gpbonus-a2.png",
+          "description": "Заправка топливом G-Drive"
+        },
+        {
+          "icon": "https://www3.gpnbonus.ru:443/upload/gpbonus-a3.png",
+          "description": "Покупка товаров G-Drive"
+        }
+      ],
+      "themes": {
+        "light": {
+          "title": {
+            "color": "#F78E00",
+            "bold": true
+          },
+          "description": {
+            "color": "#323232",
+            "bold": false
+          },
+          "advantages": {
+            "color": "#323232",
+            "bold": false
+          }
+        },
+        "dark": {
+          "title": {
+            "color": "#F78E00",
+            "bold": true
+          },
+          "description": {
+            "color": "#FFFFFF",
+            "bold": false
+          },
+          "advantages": {
+            "color": "#FFFFFF",
+            "bold": false
+          }
+        }
+      }
+    },
+    {
+      "title": "Газпром Бонус Премиум",
+      "title_color": "#F78E00",
+      "description": "Увеличенный % начисления бонусов",
+      "icon": "https://www3.gpnbonus.ru:443/upload/gpbonus-premium-active.png",
+      "url": "https://www3.gpnbonus.ru:443/ma-pages/ogon/?utm_source=gpn&utm_medium=partner_widget&utm_campaign=online&utm_content=mobapp&utm_term=bonus_card&productType=PRODUCT_TYPE_SUBSCRIPTION&productId=1000220",
+      "partner_id": "22031999",
+      "advantages": [
+        {
+          "icon": "https://www3.gpnbonus.ru:443/upload/gpbonus-a1.png",
+          "description": "Заправка любым топливом"
+        },
+        {
+          "icon": "https://www3.gpnbonus.ru:443/upload/gpbonus-a2.png",
+          "description": "Заправка топливом G-Drive"
+        }
+      ],
+      "themes": {
+        "light": {
+          "title": {
+            "color": "#F78E00",
+            "bold": true
+          },
+          "description": {
+            "color": "#323232",
+            "bold": false
+          },
+          "advantages": {
+            "color": "#323232",
+            "bold": false
+          }
+        },
+        "dark": {
+          "title": {
+            "color": "#F78E00",
+            "bold": true
+          },
+          "description": {
+            "color": "#FFFFFF",
+            "bold": false
+          },
+          "advantages": {
+            "color": "#FFFFFF",
+            "bold": false
+          }
+        }
+      }
+    },
+    {
+      "title": "Газпром Бонус Премиум",
+      "title_color": "#F78E00",
+      "description": "Увеличенный % начисления бонусов",
+      "icon": "https://www3.gpnbonus.ru:443/upload/gpbonus-premium-active.png",
+      "url": "https://www3.gpnbonus.ru:443/ma-pages/ogon/?utm_source=gpn&utm_medium=partner_widget&utm_campaign=online&utm_content=mobapp&utm_term=bonus_card&productType=PRODUCT_TYPE_SUBSCRIPTION&productId=1000220",
+      "partner_id": "22031999",
+      "advantages": [
+        {
+          "icon": "https://www3.gpnbonus.ru:443/upload/gpbonus-a1.png",
+          "description": "Заправка любым топливом"
+        }
+      ],
+      "themes": {
+        "light": {
+          "title": {
+            "color": "#F78E00",
+            "bold": true
+          },
+          "description": {
+            "color": "#323232",
+            "bold": false
+          },
+          "advantages": {
+            "color": "#323232",
+            "bold": false
+          }
+        },
+        "dark": {
+          "title": {
+            "color": "#F78E00",
+            "bold": true
+          },
+          "description": {
+            "color": "#FFFFFF",
+            "bold": false
+          },
+          "advantages": {
+            "color": "#FFFFFF",
+            "bold": false
+          }
+        }
+      }
+    }
+  ]
+}

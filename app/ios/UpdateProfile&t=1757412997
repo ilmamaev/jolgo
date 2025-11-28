@@ -1,0 +1,164 @@
+{
+  "status": 1,
+  "error": "",
+  "session": "",
+  "profile": {
+    "user": {
+      "additional": {
+        "children": "Нет",
+        "age_range": {
+          "available": {
+            "1": "До 20",
+            "2": "20-25",
+            "3": "25-30",
+            "4": "30-35",
+            "5": "35-40",
+            "6": "40-45",
+            "7": "45-50",
+            "8": "50-55",
+            "9": "55-60",
+            "10": "60-65",
+            "11": "Старше 65"
+          },
+          "selected": "1"
+        },
+        "gender": "Мужской",
+        "preferred_method_communication": {
+          "available": {
+            "1": "Телефон",
+            "2": "Email",
+            "3": "Мессенджеры"
+          },
+          "selected": "2"
+        }
+      },
+      "codes": [
+        {
+          "name": "Нам по пути",
+          "logo": "",
+          "is_internal": true,
+          "data": [
+            {
+              "title": "Персональная рекомендация от Катюши 2",
+              "name": "Нам по пути",
+              "description": "По карте *4232 купите  и получите  % от стоимости товара бонусами",
+              "code_type": "text",
+              "is_internal": true,
+              "code": "K150112FTHXJN9X",
+              "card": "7825689909024232",
+              "use_date": null,
+              "image": "",
+              "image_ratio": 2.45,
+              "logo": "",
+              "url": "",
+              "rules": "https://www.gpnbonus.ru/on_the_way/pravila_programmy/",
+              "activation_date": 1756386670,
+              "active_before": 1772286740,
+              "assign_date": 1736939330,
+              "code_display": "K150112FTHXJN9X"
+            }
+          ]
+        }
+      ],
+      "main": {
+        "avatar": "",
+        "name": "",
+        "phone": "79313754032",
+        "phone_id": "j99p7JEa2yZtJJcy4HrryA==",
+        "birth_date": "16.01",
+        "is_birth_date_editable": true,
+        "email": "example@gmail.com",
+        "email_id": "",
+        "temp_email": ""
+      },
+      "notifications": {
+        "sms": false,
+        "email": false,
+        "marketing_push": false,
+        "service_push": true,
+        "partner_push": false
+      }
+    },
+    "cards": [
+      {
+        "number": "7825686000143824",
+        "virtual_number": "",
+        "virtual_gaid": "",
+        "virtual_allowed": true,
+        "referral_code": "",
+        "contact_id": "1-7P48RJ",
+        "row_id": "1-7P48RZ",
+        "status": "Серебро",
+        "card_type": "bonus",
+        "card_status": {
+          "available": [
+            {
+              "name": "Серебряный",
+              "min_amount": 0
+            },
+            {
+              "name": "Золотой",
+              "min_amount": 100
+            },
+            {
+              "name": "Платиновый",
+              "min_amount": 300
+            }
+          ],
+          "current": "Серебряный"
+        },
+        "bonuses": 9955,
+        "bonuses_expiration_soon": false,
+        "amount_current_month": 0,
+        "is_active": true,
+        "is_virtual": true,
+        "is_cobrand": false,
+        "is_platinum": false,
+        "is_ogon": false,
+        "tariff": null,
+        "min_transfer_bonuses": "250",
+        "max_transfer_bonuses": "1000",
+        "percent_transfer_bonuses": "2",
+        "last_transaction_date": null,
+        "enable_lock_button": true
+      }
+    ],
+    "banners": [],
+    "buttons": [
+      {
+        "slug": "promocodes",
+        "title": "Промо­коды",
+        "icon": "promo-codes.pdf",
+        "url": "gpn://cabinet-screen/promocodes"
+      },
+      {
+        "slug": "orders_history",
+        "title": "История заказов",
+        "icon": "orders-history.pdf",
+        "url": "gpn://cabinet-screen/orders_history"
+      },
+      {
+        "slug": "charity",
+        "title": "Благотвори­тельность",
+        "icon": "charity.pdf",
+        "url": "gpn://cabinet-screen/charity"
+      }
+    ],
+    "checksum": "3de0a218a01e809ef216d7df3d7231af"
+  },
+  "enable_card_addition": true,
+  "enable_azsgo": true,
+  "enable_virtual_cobrand": false,
+  "enable_qrcode": true,
+  "enable_anagog": false,
+  "enable_lizaalert": true,
+  "enable_cabinet_rating": true,
+  "enable_apple_wallet": true,
+  "enable_stories": true,
+  "enable_lk_scanner": true,
+  "enable_lk_coffee_scanner": true,
+  "enable_logout": true,
+  "enable_cashier_check_to_email": true,
+  "enable_qr_sbp": true,
+  "online_stiu_warning": "Скидки и акции не применяются (кроме акций с начислением дополнительных бонусов). Для скидки и участия в акции обратитесь на кассу."
+}

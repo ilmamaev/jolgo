@@ -1,0 +1,19 @@
+{
+  "status": 1,
+  "error": "",
+  "session": "",
+  "message": "",
+  "data": {
+    "time_slot_length": 10,
+    "adk_tries_left": 30,
+    "application_id": "46bf12ee-2105-11f0-80a2-c673a22f7a9c",
+    "encrypted_adk": "297E45CCB5D08A64C5724BCBD5E0A47B",
+    "encryption_algorithm": "PBKDF2WithHmacSHA1",
+    "encryption_iteration_count": 1024,
+    "encryption_key_length": 128,
+    "encryption_salt": "DCA4724F98A4B09CF6AC958524C2D33B",
+    "cipher_algorithm": "AES/CBC/NoPadding",
+    "cipher_iv": "00000000000000000000000000000000",
+    "ret_code": 0
+  }
+}

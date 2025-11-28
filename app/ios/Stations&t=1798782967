@@ -1,0 +1,3871 @@
+[
+  {
+    "ID": "17811123",
+    "NAME": "АЗС №1",
+    "LONGITUDE": "30.36994",
+    "LATITUDE": "59.83239",
+    "IDENTIFIER": "1108",
+    "REGION": "139",
+    "ASUID": null,
+    "WAYID": "",
+    "AZSGOID": null,
+    "URLTOTIP": "",
+    "NOTICE_TEXT": "",
+    "NOTICE_URL": "",
+    "BRAND": "GPN",
+    "PLACE": "Санкт-Петербург, Дунайский, 29",
+    "SERVICES": [
+      "17813325",
+      "17813326",
+      "17813327",
+      "17813328",
+      "17813333",
+      "17813335",
+      "17813336",
+      "17813338",
+      "17813343",
+      "17813351",
+      "17813352",
+      "17813356",
+      "17813360",
+      "17814727",
+      "17813366",
+      "17814726"
+    ],
+    "AAZS": 0,
+    "FUEL": [
+      "175",
+      "176",
+      "177",
+      "179"
+    ],
+    "PRICE": {
+      "175": "56.85",
+      "176": "55.25",
+      "177": "51.25",
+      "179": "63.00"
+    },
+    "FUELS_DATA": [
+      {
+        "id": "175",
+        "name": "G-95",
+        "price": "56.85"
+      },
+      {
+        "id": "176",
+        "name": "95",
+        "price": "55.25"
+      },
+      {
+        "id": "177",
+        "name": "92",
+        "price": "51.25"
+      },
+      {
+        "id": "179",
+        "name": "ДТл",
+        "price": ""
+      }
+    ],
+    "PRICETIME": 1747913446,
+    "CURRENCY": "RUB",
+    "POOL": 0,
+    "ONLINE_DISCOUNT": null,
+    "ONLINE_DISCOUNT_PIN": false,
+    "ONLINE_PROMOTIONS": [],
+    "ONLINE_COFFEE": false,
+    "ONLINE_STIU": false
+  },
+  {
+    "ID": "17811124",
+    "NAME": "АЗС №2",
+    "LONGITUDE": "30.36805",
+    "LATITUDE": "59.98872",
+    "IDENTIFIER": "1109",
+    "REGION": "139",
+    "ASUID": null,
+    "WAYID": "",
+    "AZSGOID": null,
+    "URLTOTIP": "",
+    "NOTICE_TEXT": "",
+    "NOTICE_URL": "",
+    "BRAND": "GPN",
+    "PLACE": "Санкт-Петербург, Кушелевская дорога, 8",
+    "SERVICES": [
+      "17813325",
+      "17813326",
+      "17813328",
+      "17813333",
+      "17813335",
+      "17813336",
+      "17813338",
+      "17813343",
+      "17813351",
+      "17813352",
+      "17813356",
+      "17813358",
+      "17813360",
+      "17813362",
+      "17814727",
+      "17813366",
+      "17813541",
+      "17814726"
+    ],
+    "AAZS": 0,
+    "FUEL": [
+      "175",
+      "176",
+      "177",
+      "179"
+    ],
+    "PRICE": {
+      "175": "56.85",
+      "176": "55.25",
+      "177": "51.10",
+      "179": "63.15"
+    },
+    "FUELS_DATA": [
+      {
+        "id": "175",
+        "name": "G-95",
+        "price": "56.85"
+      },
+      {
+        "id": "176",
+        "name": "95",
+        "price": "55.25"
+      },
+      {
+        "id": "177",
+        "name": "92",
+        "price": "51.10"
+      },
+      {
+        "id": "179",
+        "name": "ДТл",
+        "price": ""
+      }
+    ],
+    "PRICETIME": 1747913446,
+    "CURRENCY": "RUB",
+    "POOL": 0,
+    "ONLINE_DISCOUNT": null,
+    "ONLINE_DISCOUNT_PIN": false,
+    "ONLINE_PROMOTIONS": [],
+    "ONLINE_COFFEE": false,
+    "ONLINE_STIU": false
+  },
+  {
+    "ID": "17811262",
+    "NAME": "АЗС №2",
+    "LONGITUDE": "37.77493",
+    "LATITUDE": "55.81197",
+    "IDENTIFIER": "1671",
+    "REGION": "136",
+    "ASUID": null,
+    "WAYID": "",
+    "AZSGOID": null,
+    "URLTOTIP": "",
+    "NOTICE_TEXT": "",
+    "NOTICE_URL": "",
+    "BRAND": "GPN",
+    "PLACE": "Москва, Амурская, 11",
+    "SERVICES": [
+      "17813325",
+      "17813326",
+      "17813333",
+      "17813335",
+      "17813336",
+      "17813338",
+      "17813343",
+      "17813351",
+      "17813354",
+      "17813360",
+      "17814727",
+      "17813366",
+      "17813541",
+      "17814726"
+    ],
+    "AAZS": 0,
+    "FUEL": [
+      "175",
+      "177",
+      "179"
+    ],
+    "PRICE": {
+      "175": "58.30",
+      "177": "51.55",
+      "179": "63.10"
+    },
+    "FUELS_DATA": [
+      {
+        "id": "175",
+        "name": "G-95",
+        "price": "58.30"
+      },
+      {
+        "id": "177",
+        "name": "92",
+        "price": "51.55"
+      },
+      {
+        "id": "179",
+        "name": "ДТл",
+        "price": ""
+      }
+    ],
+    "PRICETIME": 1747913446,
+    "CURRENCY": "RUB",
+    "POOL": 0,
+    "ONLINE_DISCOUNT": null,
+    "ONLINE_DISCOUNT_PIN": false,
+    "ONLINE_PROMOTIONS": [],
+    "ONLINE_COFFEE": false,
+    "ONLINE_STIU": false
+  },
+  {
+    "ID": "17811125",
+    "NAME": "АЗС №3",
+    "LONGITUDE": "30.4221",
+    "LATITUDE": "59.85546",
+    "IDENTIFIER": "1110",
+    "REGION": "139",
+    "ASUID": null,
+    "WAYID": "",
+    "AZSGOID": null,
+    "URLTOTIP": "",
+    "NOTICE_TEXT": "",
+    "NOTICE_URL": "",
+    "BRAND": "GPN",
+    "PLACE": "Санкт-Петербург, Софийская, 69",
+    "SERVICES": [
+      "17813325",
+      "17813326",
+      "17813327",
+      "17813328",
+      "17813333",
+      "17813335",
+      "17813336",
+      "17813338",
+      "17813343",
+      "17813351",
+      "17813352",
+      "17813353",
+      "17813356",
+      "17813360",
+      "17814727",
+      "17813366",
+      "17814726"
+    ],
+    "AAZS": 0,
+    "FUEL": [
+      "175",
+      "176",
+      "177",
+      "179",
+      "3240"
+    ],
+    "PRICE": {
+      "175": "56.45",
+      "176": "54.85",
+      "177": "50.85",
+      "2719703": "62.55",
+      "3240": "64.05"
+    },
+    "FUELS_DATA": [
+      {
+        "id": "175",
+        "name": "G-95",
+        "price": "56.45"
+      },
+      {
+        "id": "176",
+        "name": "95",
+        "price": "54.85"
+      },
+      {
+        "id": "177",
+        "name": "92",
+        "price": "50.85"
+      },
+      {
+        "id": "179",
+        "name": "ДТл",
+        "price": ""
+      },
+      {
+        "id": "3240",
+        "name": "G-ДТл",
+        "price": ""
+      }
+    ],
+    "PRICETIME": 1747913446,
+    "CURRENCY": "RUB",
+    "POOL": 0,
+    "ONLINE_DISCOUNT": null,
+    "ONLINE_DISCOUNT_PIN": false,
+    "ONLINE_PROMOTIONS": [],
+    "ONLINE_COFFEE": false,
+    "ONLINE_STIU": false
+  },
+  {
+    "ID": "17811263",
+    "NAME": "АЗС №3",
+    "LONGITUDE": "37.73193",
+    "LATITUDE": "55.65396",
+    "IDENTIFIER": "1672",
+    "REGION": "136",
+    "ASUID": null,
+    "WAYID": "",
+    "AZSGOID": null,
+    "URLTOTIP": "",
+    "NOTICE_TEXT": "",
+    "NOTICE_URL": "",
+    "BRAND": "GPN",
+    "PLACE": "Москва, Перерва, 19с11",
+    "SERVICES": [
+      "17813325",
+      "17813326",
+      "17813328",
+      "17813335",
+      "17813338",
+      "17813343",
+      "17813351",
+      "17813354",
+      "17813356",
+      "17813357",
+      "17813360",
+      "17814727",
+      "17813366",
+      "17814726"
+    ],
+    "AAZS": 0,
+    "FUEL": [
+      "175",
+      "177",
+      "14606701",
+      "179"
+    ],
+    "PRICE": {
+      "14606701": "68.30",
+      "175": "58.05",
+      "177": "51.45",
+      "179": "63.15"
+    },
+    "FUELS_DATA": [
+      {
+        "id": "175",
+        "name": "G-95",
+        "price": "58.05"
+      },
+      {
+        "id": "177",
+        "name": "92",
+        "price": "51.45"
+      },
+      {
+        "id": "14606701",
+        "name": "G-100",
+        "price": "68.30"
+      },
+      {
+        "id": "179",
+        "name": "ДТл",
+        "price": ""
+      }
+    ],
+    "PRICETIME": 1747913446,
+    "CURRENCY": "RUB",
+    "POOL": 0,
+    "ONLINE_DISCOUNT": null,
+    "ONLINE_DISCOUNT_PIN": false,
+    "ONLINE_PROMOTIONS": [],
+    "ONLINE_COFFEE": false,
+    "ONLINE_STIU": false
+  },
+  {
+    "ID": "17811268",
+    "NAME": "АЗС №4",
+    "LONGITUDE": "37.55638",
+    "LATITUDE": "55.56161",
+    "IDENTIFIER": "1678",
+    "REGION": "136",
+    "ASUID": null,
+    "WAYID": "",
+    "AZSGOID": null,
+    "URLTOTIP": "",
+    "NOTICE_TEXT": "",
+    "NOTICE_URL": "",
+    "BRAND": "GPN",
+    "PLACE": "Москва, Поляны, 3В",
+    "SERVICES": [
+      "17813335",
+      "17813338",
+      "17813343",
+      "17813345",
+      "17813356",
+      "17813360",
+      "17814727",
+      "17813366",
+      "17814726"
+    ],
+    "AAZS": 1,
+    "FUEL": [
+      "175",
+      "176",
+      "177",
+      "179"
+    ],
+    "PRICE": {
+      "175": "57.50",
+      "176": "55.90",
+      "177": "50.90",
+      "179": "62.00"
+    },
+    "FUELS_DATA": [
+      {
+        "id": "175",
+        "name": "G-95",
+        "price": "57.50"
+      },
+      {
+        "id": "176",
+        "name": "95",
+        "price": "55.90"
+      },
+      {
+        "id": "177",
+        "name": "92",
+        "price": "50.90"
+      },
+      {
+        "id": "179",
+        "name": "ДТл",
+        "price": ""
+      }
+    ],
+    "PRICETIME": 1747913446,
+    "CURRENCY": "RUB",
+    "POOL": 0,
+    "ONLINE_DISCOUNT": null,
+    "ONLINE_DISCOUNT_PIN": false,
+    "ONLINE_PROMOTIONS": [],
+    "ONLINE_COFFEE": false,
+    "ONLINE_STIU": false
+  },
+  {
+    "ID": "17812783",
+    "NAME": "АЗС №4",
+    "LONGITUDE": "30.12354",
+    "LATITUDE": "59.99539",
+    "IDENTIFIER": "1111",
+    "REGION": "139",
+    "ASUID": null,
+    "WAYID": "",
+    "AZSGOID": null,
+    "URLTOTIP": "",
+    "NOTICE_TEXT": "",
+    "NOTICE_URL": "",
+    "BRAND": "GPN",
+    "PLACE": "Санкт-Петербург, Лахтинский, 149А",
+    "SERVICES": [
+      "17813325",
+      "17813326",
+      "17813327",
+      "17813328",
+      "17813333",
+      "17813335",
+      "17813336",
+      "17813338",
+      "17813343",
+      "17813351",
+      "17813352",
+      "17813354",
+      "17813356",
+      "17813358",
+      "17813360",
+      "17813362",
+      "17814727",
+      "17813366",
+      "17813541",
+      "17814726"
+    ],
+    "AAZS": 0,
+    "FUEL": [
+      "175",
+      "177",
+      "14606701",
+      "3240"
+    ],
+    "PRICE": {
+      "14606701": "68.35",
+      "175": "55.85",
+      "177": "51.20",
+      "3240": "65.00"
+    },
+    "FUELS_DATA": [
+      {
+        "id": "175",
+        "name": "G-95",
+        "price": "55.85"
+      },
+      {
+        "id": "177",
+        "name": "92",
+        "price": "51.20"
+      },
+      {
+        "id": "14606701",
+        "name": "G-100",
+        "price": "68.35"
+      },
+      {
+        "id": "3240",
+        "name": "G-ДТл",
+        "price": ""
+      }
+    ],
+    "PRICETIME": 1747913446,
+    "CURRENCY": "RUB",
+    "POOL": 0,
+    "ONLINE_DISCOUNT": null,
+    "ONLINE_DISCOUNT_PIN": false,
+    "ONLINE_PROMOTIONS": [],
+    "ONLINE_COFFEE": false,
+    "ONLINE_STIU": false
+  },
+  {
+    "ID": "17812181",
+    "NAME": "АЗС №5",
+    "LONGITUDE": "30.32514",
+    "LATITUDE": "59.81656",
+    "IDENTIFIER": "11114",
+    "REGION": "139",
+    "ASUID": null,
+    "WAYID": "",
+    "AZSGOID": null,
+    "URLTOTIP": "",
+    "NOTICE_TEXT": "",
+    "NOTICE_URL": "",
+    "BRAND": "GPN",
+    "PLACE": "Санкт-Петербург, Пулковское, 42А",
+    "SERVICES": [
+      "17813325",
+      "17813326",
+      "17813327",
+      "17813328",
+      "17813333",
+      "17813335",
+      "17813336",
+      "17813338",
+      "17813342",
+      "17813343",
+      "17813351",
+      "17813352",
+      "17813353",
+      "17813356",
+      "17813358",
+      "17813360",
+      "17813362",
+      "17814727",
+      "17813366",
+      "17813541",
+      "17814726"
+    ],
+    "AAZS": 0,
+    "FUEL": [
+      "175",
+      "176",
+      "177",
+      "3410",
+      "14606701",
+      "179"
+    ],
+    "PRICE": {
+      "14606701": "69.25",
+      "175": "57.10",
+      "176": "55.50",
+      "177": "51.30",
+      "3410": "25.10",
+      "2719703": "63.45"
+    },
+    "FUELS_DATA": [
+      {
+        "id": "175",
+        "name": "G-95",
+        "price": "57.10"
+      },
+      {
+        "id": "176",
+        "name": "95",
+        "price": "55.50"
+      },
+      {
+        "id": "177",
+        "name": "92",
+        "price": "51.30"
+      },
+      {
+        "id": "3410",
+        "name": "КПГ",
+        "price": "25.10"
+      },
+      {
+        "id": "14606701",
+        "name": "G-100",
+        "price": "69.25"
+      },
+      {
+        "id": "179",
+        "name": "ДТл",
+        "price": ""
+      }
+    ],
+    "PRICETIME": 1747913453,
+    "CURRENCY": "RUB",
+    "POOL": 0,
+    "ONLINE_DISCOUNT": null,
+    "ONLINE_DISCOUNT_PIN": false,
+    "ONLINE_PROMOTIONS": [],
+    "ONLINE_COFFEE": false,
+    "ONLINE_STIU": false
+  },
+  {
+    "ID": "17811127",
+    "NAME": "АЗС №6",
+    "LONGITUDE": "30.48396",
+    "LATITUDE": "59.84228",
+    "IDENTIFIER": "1113",
+    "REGION": "139",
+    "ASUID": null,
+    "WAYID": "",
+    "AZSGOID": null,
+    "URLTOTIP": "",
+    "NOTICE_TEXT": "",
+    "NOTICE_URL": "",
+    "BRAND": "GPN",
+    "PLACE": "Санкт-Петербург, Обуховской обороны, 303",
+    "SERVICES": [
+      "17813325",
+      "17813326",
+      "17813327",
+      "17813333",
+      "17813335",
+      "17813336",
+      "17813338",
+      "17813343",
+      "17813351",
+      "17813352",
+      "17813356",
+      "17813358",
+      "17813360",
+      "17813362",
+      "17814727",
+      "17813366",
+      "17813541",
+      "17814726"
+    ],
+    "AAZS": 0,
+    "FUEL": [
+      "175",
+      "176",
+      "177",
+      "179",
+      "3240"
+    ],
+    "PRICE": {
+      "175": "57.20",
+      "176": "55.60",
+      "177": "51.45",
+      "2719703": "63.40",
+      "3240": "64.90"
+    },
+    "FUELS_DATA": [
+      {
+        "id": "175",
+        "name": "G-95",
+        "price": "57.20"
+      },
+      {
+        "id": "176",
+        "name": "95",
+        "price": "55.60"
+      },
+      {
+        "id": "177",
+        "name": "92",
+        "price": "51.45"
+      },
+      {
+        "id": "179",
+        "name": "ДТл",
+        "price": ""
+      },
+      {
+        "id": "3240",
+        "name": "G-ДТл",
+        "price": ""
+      }
+    ],
+    "PRICETIME": 1747913446,
+    "CURRENCY": "RUB",
+    "POOL": 0,
+    "ONLINE_DISCOUNT": null,
+    "ONLINE_DISCOUNT_PIN": false,
+    "ONLINE_PROMOTIONS": [],
+    "ONLINE_COFFEE": false,
+    "ONLINE_STIU": false
+  },
+  {
+    "ID": "17811150",
+    "NAME": "АЗС №6",
+    "LONGITUDE": "39.58035",
+    "LATITUDE": "57.34131",
+    "IDENTIFIER": "1266",
+    "REGION": "145",
+    "ASUID": null,
+    "WAYID": "",
+    "AZSGOID": null,
+    "URLTOTIP": "",
+    "NOTICE_TEXT": "",
+    "NOTICE_URL": "",
+    "BRAND": "GPN",
+    "PLACE": "Голузиново, М8 Москва-Холмогоры (226 км, слева)",
+    "SERVICES": [
+      "17813325",
+      "17813326",
+      "17813328",
+      "17813333",
+      "17813335",
+      "17813336",
+      "17813338",
+      "17813343",
+      "17813351",
+      "17813353",
+      "17813356",
+      "17813360",
+      "17814727",
+      "17813366",
+      "17814726"
+    ],
+    "AAZS": 0,
+    "FUEL": [
+      "175",
+      "176",
+      "177",
+      "14606701",
+      "179"
+    ],
+    "PRICE": {
+      "14606701": "64.15",
+      "175": "54.20",
+      "176": "52.80",
+      "177": "49.55",
+      "179": "60.85"
+    },
+    "FUELS_DATA": [
+      {
+        "id": "175",
+        "name": "G-95",
+        "price": "54.20"
+      },
+      {
+        "id": "176",
+        "name": "95",
+        "price": "52.80"
+      },
+      {
+        "id": "177",
+        "name": "92",
+        "price": "49.55"
+      },
+      {
+        "id": "14606701",
+        "name": "G-100",
+        "price": "64.15"
+      },
+      {
+        "id": "179",
+        "name": "ДТл",
+        "price": ""
+      }
+    ],
+    "PRICETIME": 1747913446,
+    "CURRENCY": "RUB",
+    "POOL": 0,
+    "ONLINE_DISCOUNT": null,
+    "ONLINE_DISCOUNT_PIN": false,
+    "ONLINE_PROMOTIONS": [],
+    "ONLINE_COFFEE": false,
+    "ONLINE_STIU": false
+  },
+  {
+    "ID": "17811270",
+    "NAME": "АЗС №6",
+    "LONGITUDE": "37.60648",
+    "LATITUDE": "55.68424",
+    "IDENTIFIER": "1680",
+    "REGION": "136",
+    "ASUID": null,
+    "WAYID": "",
+    "AZSGOID": null,
+    "URLTOTIP": "",
+    "NOTICE_TEXT": "",
+    "NOTICE_URL": "",
+    "BRAND": "GPN",
+    "PLACE": "Москва, 6-ой Загородный, 1",
+    "SERVICES": [
+      "17813325",
+      "17813326",
+      "17813328",
+      "17813333",
+      "17813335",
+      "17813338",
+      "17813343",
+      "17813351",
+      "17813354",
+      "17813356",
+      "17813357",
+      "17813360",
+      "17814727",
+      "17813366",
+      "17814726"
+    ],
+    "AAZS": 0,
+    "FUEL": [
+      "175",
+      "177",
+      "179"
+    ],
+    "PRICE": {
+      "175": "58.30",
+      "177": "51.45",
+      "179": "63.35"
+    },
+    "FUELS_DATA": [
+      {
+        "id": "175",
+        "name": "G-95",
+        "price": "58.30"
+      },
+      {
+        "id": "177",
+        "name": "92",
+        "price": "51.45"
+      },
+      {
+        "id": "179",
+        "name": "ДТл",
+        "price": ""
+      }
+    ],
+    "PRICETIME": 1747913446,
+    "CURRENCY": "RUB",
+    "POOL": 0,
+    "ONLINE_DISCOUNT": null,
+    "ONLINE_DISCOUNT_PIN": false,
+    "ONLINE_PROMOTIONS": [],
+    "ONLINE_COFFEE": false,
+    "ONLINE_STIU": false
+  },
+  {
+    "ID": "17811128",
+    "NAME": "АЗС №7",
+    "LONGITUDE": "30.16861",
+    "LATITUDE": "59.8109",
+    "IDENTIFIER": "1114",
+    "REGION": "139",
+    "ASUID": null,
+    "WAYID": "",
+    "AZSGOID": null,
+    "URLTOTIP": "",
+    "NOTICE_TEXT": "",
+    "NOTICE_URL": "",
+    "BRAND": "GPN",
+    "PLACE": "Санкт-Петербург, Таллинское, 151, 1",
+    "SERVICES": [
+      "17813325",
+      "17813326",
+      "17813328",
+      "17813333",
+      "17813335",
+      "17813336",
+      "17813338",
+      "17813343",
+      "17813351",
+      "17813352",
+      "17813353",
+      "17813356",
+      "17813360",
+      "17814727",
+      "17813366",
+      "17813541",
+      "17814726"
+    ],
+    "AAZS": 0,
+    "FUEL": [
+      "175",
+      "177",
+      "14606701",
+      "179",
+      "3240"
+    ],
+    "PRICE": {
+      "14606701": "69.20",
+      "175": "55.80",
+      "177": "51.00",
+      "2719703": "63.50",
+      "3240": "65.00"
+    },
+    "FUELS_DATA": [
+      {
+        "id": "175",
+        "name": "G-95",
+        "price": "55.80"
+      },
+      {
+        "id": "177",
+        "name": "92",
+        "price": "51.00"
+      },
+      {
+        "id": "14606701",
+        "name": "G-100",
+        "price": "69.20"
+      },
+      {
+        "id": "179",
+        "name": "ДТл",
+        "price": ""
+      },
+      {
+        "id": "3240",
+        "name": "G-ДТл",
+        "price": ""
+      }
+    ],
+    "PRICETIME": 1747913446,
+    "CURRENCY": "RUB",
+    "POOL": 0,
+    "ONLINE_DISCOUNT": null,
+    "ONLINE_DISCOUNT_PIN": false,
+    "ONLINE_PROMOTIONS": [],
+    "ONLINE_COFFEE": false,
+    "ONLINE_STIU": false
+  },
+  {
+    "ID": "17811271",
+    "NAME": "АЗС №7",
+    "LONGITUDE": "37.44172",
+    "LATITUDE": "55.65465",
+    "IDENTIFIER": "1681",
+    "REGION": "136",
+    "ASUID": null,
+    "WAYID": "",
+    "AZSGOID": null,
+    "URLTOTIP": "",
+    "NOTICE_TEXT": "",
+    "NOTICE_URL": "",
+    "BRAND": "GPN",
+    "PLACE": "Москва, МКАД, 6 (46 км)",
+    "SERVICES": [
+      "17813325",
+      "17813326",
+      "17813328",
+      "17813333",
+      "17813335",
+      "17813336",
+      "17813338",
+      "17813343",
+      "17813351",
+      "17813354",
+      "17813356",
+      "17813357",
+      "17813360",
+      "17814727",
+      "17813366",
+      "17814726"
+    ],
+    "AAZS": 0,
+    "FUEL": [
+      "175",
+      "177",
+      "179"
+    ],
+    "PRICE": {
+      "175": "58.30",
+      "177": "51.55",
+      "179": "63.20"
+    },
+    "FUELS_DATA": [
+      {
+        "id": "175",
+        "name": "G-95",
+        "price": "58.30"
+      },
+      {
+        "id": "177",
+        "name": "92",
+        "price": "51.55"
+      },
+      {
+        "id": "179",
+        "name": "ДТл",
+        "price": ""
+      }
+    ],
+    "PRICETIME": 1747913446,
+    "CURRENCY": "RUB",
+    "POOL": 0,
+    "ONLINE_DISCOUNT": null,
+    "ONLINE_DISCOUNT_PIN": false,
+    "ONLINE_PROMOTIONS": [],
+    "ONLINE_COFFEE": false,
+    "ONLINE_STIU": false
+  },
+  {
+    "ID": "17809324",
+    "NAME": "АЗС №8",
+    "LONGITUDE": "30.44551",
+    "LATITUDE": "59.89801",
+    "IDENTIFIER": "1115",
+    "REGION": "139",
+    "ASUID": "",
+    "WAYID": "",
+    "AZSGOID": "",
+    "URLTOTIP": "",
+    "NOTICE_TEXT": "",
+    "NOTICE_URL": "",
+    "BRAND": "GPN",
+    "PLACE": "Санкт-Петербург, Дыбенко, 1",
+    "SERVICES": [
+      "17813335",
+      "17813338",
+      "17813343",
+      "17813345",
+      "17813356",
+      "17813360",
+      "17813362",
+      "17814727",
+      "17813366",
+      "17814726"
+    ],
+    "AAZS": 1,
+    "FUEL": [
+      "175",
+      "176",
+      "177",
+      "179"
+    ],
+    "PRICE": {
+      "175": "56.15",
+      "176": "54.55",
+      "177": "50.90",
+      "2719703": "62.35"
+    },
+    "FUELS_DATA": [
+      {
+        "id": "175",
+        "name": "G-95",
+        "price": "56.15"
+      },
+      {
+        "id": "176",
+        "name": "95",
+        "price": "54.55"
+      },
+      {
+        "id": "177",
+        "name": "92",
+        "price": "50.90"
+      },
+      {
+        "id": "179",
+        "name": "ДТл",
+        "price": ""
+      }
+    ],
+    "PRICETIME": 1747913446,
+    "CURRENCY": "RUB",
+    "POOL": 0,
+    "ONLINE_DISCOUNT": {
+      "rubs": "0.00",
+      "percent": "0.00",
+      "from_liters": "0.00"
+    },
+    "ONLINE_DISCOUNT_PIN": false,
+    "ONLINE_PROMOTIONS": [
+      {
+        "banner": {
+          "imgUrl": "https://images.azsgo.com/images/xhdpi/coffee-3rub",
+          "text": "111111111111111111111111111",
+          "title": "11111111111111111111111"
+        },
+        "code": "10%кофе",
+        "endDate": 1752872399,
+        "promotionRules": "Я ДУБЛИРУЮСЬ Я ДУБЛИРУЮСЬ",
+        "startDate": 1682888400
+      }
+    ],
+    "ONLINE_COFFEE": true,
+    "ONLINE_STIU": false
+  },
+  {
+    "ID": "17811272",
+    "NAME": "АЗС №8",
+    "LONGITUDE": "37.43946",
+    "LATITUDE": "55.67462",
+    "IDENTIFIER": "1682",
+    "REGION": "136",
+    "ASUID": null,
+    "WAYID": "",
+    "AZSGOID": null,
+    "URLTOTIP": "",
+    "NOTICE_TEXT": "",
+    "NOTICE_URL": "",
+    "BRAND": "GPN",
+    "PLACE": "Москва, Б.Очаковская, 47Б",
+    "SERVICES": [
+      "17813335",
+      "17813338",
+      "17813343",
+      "17813345",
+      "17813356",
+      "17813360",
+      "17814727",
+      "17813366",
+      "17814726"
+    ],
+    "AAZS": 1,
+    "FUEL": [
+      "176",
+      "177",
+      "179"
+    ],
+    "PRICE": {
+      "176": "55.90",
+      "177": "50.90",
+      "179": "61.55"
+    },
+    "FUELS_DATA": [
+      {
+        "id": "176",
+        "name": "95",
+        "price": "55.90"
+      },
+      {
+        "id": "177",
+        "name": "92",
+        "price": "50.90"
+      },
+      {
+        "id": "179",
+        "name": "ДТл",
+        "price": ""
+      }
+    ],
+    "PRICETIME": 1747913446,
+    "CURRENCY": "RUB",
+    "POOL": 0,
+    "ONLINE_DISCOUNT": null,
+    "ONLINE_DISCOUNT_PIN": false,
+    "ONLINE_PROMOTIONS": [],
+    "ONLINE_COFFEE": false,
+    "ONLINE_STIU": false
+  },
+  {
+    "ID": "17811129",
+    "NAME": "АЗС №9",
+    "LONGITUDE": "30.4793",
+    "LATITUDE": "59.75692",
+    "IDENTIFIER": "1116",
+    "REGION": "139",
+    "ASUID": null,
+    "WAYID": "",
+    "AZSGOID": null,
+    "URLTOTIP": "",
+    "NOTICE_TEXT": "",
+    "NOTICE_URL": "",
+    "BRAND": "GPN",
+    "PLACE": "Санкт-Петербург, Московское, 296",
+    "SERVICES": [
+      "17813325",
+      "17813326",
+      "17813333",
+      "17813335",
+      "17813336",
+      "17813338",
+      "17813343",
+      "17813351",
+      "17813352",
+      "17813353",
+      "17813356",
+      "17813358",
+      "17813360",
+      "17813362",
+      "17814727",
+      "17813366",
+      "17813541",
+      "17814726"
+    ],
+    "AAZS": 0,
+    "FUEL": [
+      "175",
+      "176",
+      "177",
+      "14606701",
+      "179"
+    ],
+    "PRICE": {
+      "14606701": "67.85",
+      "175": "56.70",
+      "176": "55.10",
+      "177": "51.05",
+      "2719703": "63.90"
+    },
+    "FUELS_DATA": [
+      {
+        "id": "175",
+        "name": "G-95",
+        "price": "56.70"
+      },
+      {
+        "id": "176",
+        "name": "95",
+        "price": "55.10"
+      },
+      {
+        "id": "177",
+        "name": "92",
+        "price": "51.05"
+      },
+      {
+        "id": "14606701",
+        "name": "G-100",
+        "price": "67.85"
+      },
+      {
+        "id": "179",
+        "name": "ДТл",
+        "price": ""
+      }
+    ],
+    "PRICETIME": 1747913446,
+    "CURRENCY": "RUB",
+    "POOL": 0,
+    "ONLINE_DISCOUNT": null,
+    "ONLINE_DISCOUNT_PIN": false,
+    "ONLINE_PROMOTIONS": [],
+    "ONLINE_COFFEE": false,
+    "ONLINE_STIU": false
+  },
+  {
+    "ID": "17811264",
+    "NAME": "АЗС №9",
+    "LONGITUDE": "37.69736",
+    "LATITUDE": "55.77859",
+    "IDENTIFIER": "1673",
+    "REGION": "136",
+    "ASUID": null,
+    "WAYID": "",
+    "AZSGOID": null,
+    "URLTOTIP": "",
+    "NOTICE_TEXT": "",
+    "NOTICE_URL": "",
+    "BRAND": "GPN",
+    "PLACE": "Москва, Б.Почтовая, 26, соорр. 1",
+    "SERVICES": [
+      "17813335",
+      "17813338",
+      "17813343",
+      "17813345",
+      "17813356",
+      "17813360",
+      "17814727",
+      "17813366",
+      "17814726"
+    ],
+    "AAZS": 1,
+    "FUEL": [
+      "175",
+      "177",
+      "179"
+    ],
+    "PRICE": {
+      "175": "57.30",
+      "177": "51.00",
+      "179": "62.10"
+    },
+    "FUELS_DATA": [
+      {
+        "id": "175",
+        "name": "G-95",
+        "price": "57.30"
+      },
+      {
+        "id": "177",
+        "name": "92",
+        "price": "51.00"
+      },
+      {
+        "id": "179",
+        "name": "ДТл",
+        "price": ""
+      }
+    ],
+    "PRICETIME": 1747913446,
+    "CURRENCY": "RUB",
+    "POOL": 0,
+    "ONLINE_DISCOUNT": null,
+    "ONLINE_DISCOUNT_PIN": false,
+    "ONLINE_PROMOTIONS": [],
+    "ONLINE_COFFEE": false,
+    "ONLINE_STIU": false
+  },
+  {
+    "ID": "17811130",
+    "NAME": "АЗС №10",
+    "LONGITUDE": "30.48113",
+    "LATITUDE": "59.75822",
+    "IDENTIFIER": "1117",
+    "REGION": "139",
+    "ASUID": null,
+    "WAYID": "",
+    "AZSGOID": null,
+    "URLTOTIP": "",
+    "NOTICE_TEXT": "",
+    "NOTICE_URL": "",
+    "BRAND": "GPN",
+    "PLACE": "Санкт-Петербург, Московское, 295 А",
+    "SERVICES": [
+      "17813325",
+      "17813326",
+      "17813328",
+      "17813333",
+      "17813335",
+      "17813336",
+      "17813338",
+      "17813343",
+      "17813351",
+      "17813352",
+      "17813353",
+      "17813356",
+      "17813360",
+      "17813362",
+      "17814727",
+      "17813366",
+      "17813541",
+      "17814726"
+    ],
+    "AAZS": 0,
+    "FUEL": [
+      "175",
+      "176",
+      "177",
+      "14606701",
+      "179"
+    ],
+    "PRICE": {
+      "14606701": "67.85",
+      "175": "56.70",
+      "176": "55.10",
+      "177": "51.05",
+      "179": "63.55"
+    },
+    "FUELS_DATA": [
+      {
+        "id": "175",
+        "name": "G-95",
+        "price": "56.70"
+      },
+      {
+        "id": "176",
+        "name": "95",
+        "price": "55.10"
+      },
+      {
+        "id": "177",
+        "name": "92",
+        "price": "51.05"
+      },
+      {
+        "id": "14606701",
+        "name": "G-100",
+        "price": "67.85"
+      },
+      {
+        "id": "179",
+        "name": "ДТл",
+        "price": ""
+      }
+    ],
+    "PRICETIME": 1747913446,
+    "CURRENCY": "RUB",
+    "POOL": 0,
+    "ONLINE_DISCOUNT": null,
+    "ONLINE_DISCOUNT_PIN": false,
+    "ONLINE_PROMOTIONS": [],
+    "ONLINE_COFFEE": false,
+    "ONLINE_STIU": false
+  },
+  {
+    "ID": "17811256",
+    "NAME": "АЗС №10",
+    "LONGITUDE": "37.40399",
+    "LATITUDE": "55.76746",
+    "IDENTIFIER": "1665",
+    "REGION": "136",
+    "ASUID": null,
+    "WAYID": "",
+    "AZSGOID": null,
+    "URLTOTIP": "",
+    "NOTICE_TEXT": "",
+    "NOTICE_URL": "",
+    "BRAND": "GPN",
+    "PLACE": "Москва, Осенняя, 23Б",
+    "SERVICES": [
+      "17813335",
+      "17813338",
+      "17813343",
+      "17813345",
+      "17813356",
+      "17813360",
+      "17814727",
+      "17813366",
+      "17814726"
+    ],
+    "AAZS": 1,
+    "FUEL": [
+      "175",
+      "177",
+      "179"
+    ],
+    "PRICE": {
+      "175": "56.90",
+      "177": "50.90",
+      "179": "62.50"
+    },
+    "FUELS_DATA": [
+      {
+        "id": "175",
+        "name": "G-95",
+        "price": "56.90"
+      },
+      {
+        "id": "177",
+        "name": "92",
+        "price": "50.90"
+      },
+      {
+        "id": "179",
+        "name": "ДТл",
+        "price": ""
+      }
+    ],
+    "PRICETIME": 1747913446,
+    "CURRENCY": "RUB",
+    "POOL": 0,
+    "ONLINE_DISCOUNT": null,
+    "ONLINE_DISCOUNT_PIN": false,
+    "ONLINE_PROMOTIONS": [],
+    "ONLINE_COFFEE": false,
+    "ONLINE_STIU": false
+  },
+  {
+    "ID": "17811257",
+    "NAME": "АЗС №11",
+    "LONGITUDE": "37.49422",
+    "LATITUDE": "55.75171",
+    "IDENTIFIER": "1666",
+    "REGION": "136",
+    "ASUID": null,
+    "WAYID": "",
+    "AZSGOID": null,
+    "URLTOTIP": "",
+    "NOTICE_TEXT": "",
+    "NOTICE_URL": "",
+    "BRAND": "GPN",
+    "PLACE": "Москва, Барклая, 26",
+    "SERVICES": [
+      "17813325",
+      "17813326",
+      "17813328",
+      "17813331",
+      "17813333",
+      "17813335",
+      "17813336",
+      "17813338",
+      "17813343",
+      "17813351",
+      "17813354",
+      "17813357",
+      "17813360",
+      "17814727",
+      "17813366",
+      "17814726"
+    ],
+    "AAZS": 0,
+    "FUEL": [
+      "175",
+      "176",
+      "177"
+    ],
+    "PRICE": {
+      "175": "58.60",
+      "176": "57.00",
+      "177": "51.10"
+    },
+    "FUELS_DATA": [
+      {
+        "id": "175",
+        "name": "G-95",
+        "price": "58.60"
+      },
+      {
+        "id": "176",
+        "name": "95",
+        "price": "57.00"
+      },
+      {
+        "id": "177",
+        "name": "92",
+        "price": "51.10"
+      }
+    ],
+    "PRICETIME": 1747913446,
+    "CURRENCY": "RUB",
+    "POOL": 0,
+    "ONLINE_DISCOUNT": null,
+    "ONLINE_DISCOUNT_PIN": false,
+    "ONLINE_PROMOTIONS": [],
+    "ONLINE_COFFEE": false,
+    "ONLINE_STIU": false
+  },
+  {
+    "ID": "17811132",
+    "NAME": "АЗС №12",
+    "LONGITUDE": "30.07967",
+    "LATITUDE": "59.71668",
+    "IDENTIFIER": "1119",
+    "REGION": "139",
+    "ASUID": null,
+    "WAYID": "",
+    "AZSGOID": null,
+    "URLTOTIP": "",
+    "NOTICE_TEXT": "",
+    "NOTICE_URL": "",
+    "BRAND": "GPN",
+    "PLACE": "Санкт-Петербург, Гатчинское, 17",
+    "SERVICES": [
+      "17813325",
+      "17813326",
+      "17813327",
+      "17813328",
+      "17813333",
+      "17813335",
+      "17813336",
+      "17813338",
+      "17813342",
+      "17813343",
+      "17813351",
+      "17813352",
+      "17813353",
+      "17813356",
+      "17813358",
+      "17813360",
+      "17813362",
+      "17814727",
+      "17813366",
+      "17814726"
+    ],
+    "AAZS": 0,
+    "FUEL": [
+      "175",
+      "176",
+      "177",
+      "179",
+      "3240"
+    ],
+    "PRICE": {
+      "175": "57.40",
+      "176": "55.80",
+      "177": "51.65",
+      "179": "63.35",
+      "3240": "64.85"
+    },
+    "FUELS_DATA": [
+      {
+        "id": "175",
+        "name": "G-95",
+        "price": "57.40"
+      },
+      {
+        "id": "176",
+        "name": "95",
+        "price": "55.80"
+      },
+      {
+        "id": "177",
+        "name": "92",
+        "price": "51.65"
+      },
+      {
+        "id": "179",
+        "name": "ДТл",
+        "price": ""
+      },
+      {
+        "id": "3240",
+        "name": "G-ДТл",
+        "price": ""
+      }
+    ],
+    "PRICETIME": 1747913446,
+    "CURRENCY": "RUB",
+    "POOL": 0,
+    "ONLINE_DISCOUNT": null,
+    "ONLINE_DISCOUNT_PIN": false,
+    "ONLINE_PROMOTIONS": [],
+    "ONLINE_COFFEE": false,
+    "ONLINE_STIU": false
+  },
+  {
+    "ID": "17811950",
+    "NAME": "АЗС №12",
+    "LONGITUDE": "38.80016",
+    "LATITUDE": "56.7069",
+    "IDENTIFIER": "5724",
+    "REGION": "145",
+    "ASUID": null,
+    "WAYID": "",
+    "AZSGOID": null,
+    "URLTOTIP": "",
+    "NOTICE_TEXT": "",
+    "NOTICE_URL": "",
+    "BRAND": "GPN",
+    "PLACE": "Переславль-Залесский, М8 Москва-Холмогоры (выезд из Переславля-Залесского)",
+    "SERVICES": [
+      "17813325",
+      "17813326",
+      "17813328",
+      "17813333",
+      "17813335",
+      "17813336",
+      "17813338",
+      "17813343",
+      "17813351",
+      "17813356",
+      "17813360",
+      "17814727",
+      "17813366",
+      "17813541",
+      "17814726"
+    ],
+    "AAZS": 0,
+    "FUEL": [
+      "175",
+      "176",
+      "177",
+      "14606701",
+      "179"
+    ],
+    "PRICE": {
+      "14606701": "64.15",
+      "175": "54.20",
+      "176": "52.80",
+      "177": "49.55",
+      "179": "61.05"
+    },
+    "FUELS_DATA": [
+      {
+        "id": "175",
+        "name": "G-95",
+        "price": "54.20"
+      },
+      {
+        "id": "176",
+        "name": "95",
+        "price": "52.80"
+      },
+      {
+        "id": "177",
+        "name": "92",
+        "price": "49.55"
+      },
+      {
+        "id": "14606701",
+        "name": "G-100",
+        "price": "64.15"
+      },
+      {
+        "id": "179",
+        "name": "ДТл",
+        "price": ""
+      }
+    ],
+    "PRICETIME": 1747913451,
+    "CURRENCY": "RUB",
+    "POOL": 0,
+    "ONLINE_DISCOUNT": null,
+    "ONLINE_DISCOUNT_PIN": false,
+    "ONLINE_PROMOTIONS": [],
+    "ONLINE_COFFEE": false,
+    "ONLINE_STIU": false
+  },
+  {
+    "ID": "17811133",
+    "NAME": "АЗС №13",
+    "LONGITUDE": "30.37611",
+    "LATITUDE": "59.88106",
+    "IDENTIFIER": "1120",
+    "REGION": "139",
+    "ASUID": null,
+    "WAYID": "",
+    "AZSGOID": null,
+    "URLTOTIP": "",
+    "NOTICE_TEXT": "",
+    "NOTICE_URL": "",
+    "BRAND": "GPN",
+    "PLACE": "Санкт-Петербург, Фучика, 8к2",
+    "SERVICES": [
+      "17813325",
+      "17813326",
+      "17813327",
+      "17813328",
+      "17813333",
+      "17813335",
+      "17813336",
+      "17813338",
+      "17813343",
+      "17813351",
+      "17813352",
+      "17813356",
+      "17813360",
+      "17813362",
+      "17814727",
+      "17813366",
+      "17813541",
+      "17814726"
+    ],
+    "AAZS": 0,
+    "FUEL": [
+      "175",
+      "177",
+      "14606701",
+      "179"
+    ],
+    "PRICE": {
+      "14606701": "69.20",
+      "175": "56.10",
+      "177": "51.60",
+      "2719703": "63.45"
+    },
+    "FUELS_DATA": [
+      {
+        "id": "175",
+        "name": "G-95",
+        "price": "56.10"
+      },
+      {
+        "id": "177",
+        "name": "92",
+        "price": "51.60"
+      },
+      {
+        "id": "14606701",
+        "name": "G-100",
+        "price": "69.20"
+      },
+      {
+        "id": "179",
+        "name": "ДТл",
+        "price": ""
+      }
+    ],
+    "PRICETIME": 1747913446,
+    "CURRENCY": "RUB",
+    "POOL": 0,
+    "ONLINE_DISCOUNT": null,
+    "ONLINE_DISCOUNT_PIN": false,
+    "ONLINE_PROMOTIONS": [],
+    "ONLINE_COFFEE": false,
+    "ONLINE_STIU": false
+  },
+  {
+    "ID": "17811134",
+    "NAME": "АЗС №14",
+    "LONGITUDE": "30.19082",
+    "LATITUDE": "60.11687",
+    "IDENTIFIER": "1121",
+    "REGION": "139",
+    "ASUID": null,
+    "WAYID": "",
+    "AZSGOID": null,
+    "URLTOTIP": "",
+    "NOTICE_TEXT": "",
+    "NOTICE_URL": "",
+    "BRAND": "GPN",
+    "PLACE": "Санкт-Петербург, Ленинградская, 89А",
+    "SERVICES": [
+      "17813325",
+      "17813326",
+      "17813328",
+      "17813333",
+      "17813335",
+      "17813336",
+      "17813338",
+      "17813343",
+      "17813351",
+      "17813352",
+      "17813356",
+      "17813357",
+      "17813358",
+      "17813360",
+      "17814727",
+      "17813366",
+      "17814726"
+    ],
+    "AAZS": 0,
+    "FUEL": [
+      "175",
+      "176",
+      "177",
+      "14606701",
+      "179"
+    ],
+    "PRICE": {
+      "14606701": "68.85",
+      "175": "56.95",
+      "176": "55.35",
+      "177": "51.45",
+      "2719703": "63.10"
+    },
+    "FUELS_DATA": [
+      {
+        "id": "175",
+        "name": "G-95",
+        "price": "56.95"
+      },
+      {
+        "id": "176",
+        "name": "95",
+        "price": "55.35"
+      },
+      {
+        "id": "177",
+        "name": "92",
+        "price": "51.45"
+      },
+      {
+        "id": "14606701",
+        "name": "G-100",
+        "price": "68.85"
+      },
+      {
+        "id": "179",
+        "name": "ДТл",
+        "price": ""
+      }
+    ],
+    "PRICETIME": 1747913446,
+    "CURRENCY": "RUB",
+    "POOL": 0,
+    "ONLINE_DISCOUNT": null,
+    "ONLINE_DISCOUNT_PIN": false,
+    "ONLINE_PROMOTIONS": [],
+    "ONLINE_COFFEE": false,
+    "ONLINE_STIU": false
+  },
+  {
+    "ID": "17811135",
+    "NAME": "АЗС №15",
+    "LONGITUDE": "30.2487",
+    "LATITUDE": "60.10521",
+    "IDENTIFIER": "1122",
+    "REGION": "139",
+    "ASUID": null,
+    "WAYID": "",
+    "AZSGOID": null,
+    "URLTOTIP": "",
+    "NOTICE_TEXT": "",
+    "NOTICE_URL": "",
+    "BRAND": "GPN",
+    "PLACE": "Санкт-Петербург, Выборгское 503, 5",
+    "SERVICES": [
+      "17813325",
+      "17813326",
+      "17813328",
+      "17813333",
+      "17813335",
+      "17813336",
+      "17813338",
+      "17813343",
+      "17813351",
+      "17813356",
+      "17813357",
+      "17813360",
+      "17814727",
+      "17813366",
+      "17814726"
+    ],
+    "AAZS": 0,
+    "FUEL": [
+      "175",
+      "176",
+      "177",
+      "179"
+    ],
+    "PRICE": {
+      "175": "56.95",
+      "176": "55.35",
+      "177": "51.00",
+      "2719703": "63.35"
+    },
+    "FUELS_DATA": [
+      {
+        "id": "175",
+        "name": "G-95",
+        "price": "56.95"
+      },
+      {
+        "id": "176",
+        "name": "95",
+        "price": "55.35"
+      },
+      {
+        "id": "177",
+        "name": "92",
+        "price": "51.00"
+      },
+      {
+        "id": "179",
+        "name": "ДТл",
+        "price": ""
+      }
+    ],
+    "PRICETIME": 1747913446,
+    "CURRENCY": "RUB",
+    "POOL": 0,
+    "ONLINE_DISCOUNT": null,
+    "ONLINE_DISCOUNT_PIN": false,
+    "ONLINE_PROMOTIONS": [],
+    "ONLINE_COFFEE": false,
+    "ONLINE_STIU": false
+  },
+  {
+    "ID": "17811273",
+    "NAME": "АЗС №15",
+    "LONGITUDE": "37.49078",
+    "LATITUDE": "55.61407",
+    "IDENTIFIER": "1683",
+    "REGION": "136",
+    "ASUID": null,
+    "WAYID": "",
+    "AZSGOID": null,
+    "URLTOTIP": "",
+    "NOTICE_TEXT": "",
+    "NOTICE_URL": "",
+    "BRAND": "GPN",
+    "PLACE": "Москва, Ген.Тюленева, 14",
+    "SERVICES": [
+      "17813325",
+      "17813326",
+      "17813328",
+      "17813333",
+      "17813335",
+      "17813338",
+      "17813343",
+      "17813351",
+      "17813357",
+      "17813360",
+      "17814727",
+      "17813366",
+      "17814726"
+    ],
+    "AAZS": 0,
+    "FUEL": [
+      "175",
+      "177"
+    ],
+    "PRICE": {
+      "175": "58.10",
+      "177": "51.10"
+    },
+    "FUELS_DATA": [
+      {
+        "id": "175",
+        "name": "G-95",
+        "price": "58.10"
+      },
+      {
+        "id": "177",
+        "name": "92",
+        "price": "51.10"
+      }
+    ],
+    "PRICETIME": 1747913446,
+    "CURRENCY": "RUB",
+    "POOL": 0,
+    "ONLINE_DISCOUNT": null,
+    "ONLINE_DISCOUNT_PIN": false,
+    "ONLINE_PROMOTIONS": [],
+    "ONLINE_COFFEE": false,
+    "ONLINE_STIU": false
+  },
+  {
+    "ID": "17811258",
+    "NAME": "АЗС №16",
+    "LONGITUDE": "37.67391",
+    "LATITUDE": "55.88554",
+    "IDENTIFIER": "1667",
+    "REGION": "136",
+    "ASUID": null,
+    "WAYID": "",
+    "AZSGOID": null,
+    "URLTOTIP": "",
+    "NOTICE_TEXT": "",
+    "NOTICE_URL": "",
+    "BRAND": "GPN",
+    "PLACE": "Москва, Осташковская, 22А",
+    "SERVICES": [
+      "17813335",
+      "17813338",
+      "17813343",
+      "17813345",
+      "17813356",
+      "17813360",
+      "17814727",
+      "17813366",
+      "17814726"
+    ],
+    "AAZS": 1,
+    "FUEL": [
+      "175",
+      "177",
+      "179"
+    ],
+    "PRICE": {
+      "175": "57.15",
+      "177": "51.00",
+      "179": "61.90"
+    },
+    "FUELS_DATA": [
+      {
+        "id": "175",
+        "name": "G-95",
+        "price": "57.15"
+      },
+      {
+        "id": "177",
+        "name": "92",
+        "price": "51.00"
+      },
+      {
+        "id": "179",
+        "name": "ДТл",
+        "price": ""
+      }
+    ],
+    "PRICETIME": 1747913446,
+    "CURRENCY": "RUB",
+    "POOL": 0,
+    "ONLINE_DISCOUNT": null,
+    "ONLINE_DISCOUNT_PIN": false,
+    "ONLINE_PROMOTIONS": [],
+    "ONLINE_COFFEE": false,
+    "ONLINE_STIU": false
+  },
+  {
+    "ID": "17811137",
+    "NAME": "АЗС №17",
+    "LONGITUDE": "30.36803",
+    "LATITUDE": "59.81916",
+    "IDENTIFIER": "1124",
+    "REGION": "139",
+    "ASUID": null,
+    "WAYID": "",
+    "AZSGOID": null,
+    "URLTOTIP": "",
+    "NOTICE_TEXT": "",
+    "NOTICE_URL": "",
+    "BRAND": "GPN",
+    "PLACE": "Санкт-Петербург, Московское 46, 3",
+    "SERVICES": [
+      "17813325",
+      "17813326",
+      "17813328",
+      "17813333",
+      "17813335",
+      "17813336",
+      "17813338",
+      "17813343",
+      "17813351",
+      "17813352",
+      "17813356",
+      "17813360",
+      "17813362",
+      "17814727",
+      "17813366",
+      "17813541",
+      "17814726"
+    ],
+    "AAZS": 0,
+    "FUEL": [
+      "175",
+      "176",
+      "177",
+      "179"
+    ],
+    "PRICE": {
+      "175": "56.85",
+      "176": "55.25",
+      "177": "51.20",
+      "2719703": "63.10"
+    },
+    "FUELS_DATA": [
+      {
+        "id": "175",
+        "name": "G-95",
+        "price": "56.85"
+      },
+      {
+        "id": "176",
+        "name": "95",
+        "price": "55.25"
+      },
+      {
+        "id": "177",
+        "name": "92",
+        "price": "51.20"
+      },
+      {
+        "id": "179",
+        "name": "ДТл",
+        "price": ""
+      }
+    ],
+    "PRICETIME": 1747913446,
+    "CURRENCY": "RUB",
+    "POOL": 0,
+    "ONLINE_DISCOUNT": null,
+    "ONLINE_DISCOUNT_PIN": false,
+    "ONLINE_PROMOTIONS": [],
+    "ONLINE_COFFEE": false,
+    "ONLINE_STIU": false
+  },
+  {
+    "ID": "17811259",
+    "NAME": "АЗС №17",
+    "LONGITUDE": "37.62631",
+    "LATITUDE": "55.86615",
+    "IDENTIFIER": "1668",
+    "REGION": "136",
+    "ASUID": null,
+    "WAYID": "",
+    "AZSGOID": null,
+    "URLTOTIP": "",
+    "NOTICE_TEXT": "",
+    "NOTICE_URL": "",
+    "BRAND": "GPN",
+    "PLACE": "Москва, Юрловский, 4А",
+    "SERVICES": [
+      "17813335",
+      "17813338",
+      "17813343",
+      "17813345",
+      "17813360",
+      "17814727",
+      "17813366",
+      "17814726"
+    ],
+    "AAZS": 1,
+    "FUEL": [
+      "175",
+      "177"
+    ],
+    "PRICE": {
+      "175": "57.15",
+      "177": "50.90"
+    },
+    "FUELS_DATA": [
+      {
+        "id": "175",
+        "name": "G-95",
+        "price": "57.15"
+      },
+      {
+        "id": "177",
+        "name": "92",
+        "price": "50.90"
+      }
+    ],
+    "PRICETIME": 1747913446,
+    "CURRENCY": "RUB",
+    "POOL": 0,
+    "ONLINE_DISCOUNT": null,
+    "ONLINE_DISCOUNT_PIN": false,
+    "ONLINE_PROMOTIONS": [],
+    "ONLINE_COFFEE": false,
+    "ONLINE_STIU": false
+  },
+  {
+    "ID": "17811138",
+    "NAME": "АЗС №18",
+    "LONGITUDE": "30.4697",
+    "LATITUDE": "59.9662",
+    "IDENTIFIER": "1125",
+    "REGION": "139",
+    "ASUID": null,
+    "WAYID": "",
+    "AZSGOID": null,
+    "URLTOTIP": "",
+    "NOTICE_TEXT": "",
+    "NOTICE_URL": "",
+    "BRAND": "GPN",
+    "PLACE": "Санкт-Петербург, Химиков, 4",
+    "SERVICES": [
+      "17813325",
+      "17813326",
+      "17813328",
+      "17813333",
+      "17813335",
+      "17813336",
+      "17813338",
+      "17813343",
+      "17813351",
+      "17813352",
+      "17813356",
+      "17813360",
+      "17814727",
+      "17813366",
+      "17813541",
+      "17814726"
+    ],
+    "AAZS": 0,
+    "FUEL": [
+      "175",
+      "176",
+      "177",
+      "179"
+    ],
+    "PRICE": {
+      "175": "56.00",
+      "176": "54.40",
+      "177": "50.25",
+      "2719703": "63.05"
+    },
+    "FUELS_DATA": [
+      {
+        "id": "175",
+        "name": "G-95",
+        "price": "56.00"
+      },
+      {
+        "id": "176",
+        "name": "95",
+        "price": "54.40"
+      },
+      {
+        "id": "177",
+        "name": "92",
+        "price": "50.25"
+      },
+      {
+        "id": "179",
+        "name": "ДТл",
+        "price": ""
+      }
+    ],
+    "PRICETIME": 1747913446,
+    "CURRENCY": "RUB",
+    "POOL": 0,
+    "ONLINE_DISCOUNT": null,
+    "ONLINE_DISCOUNT_PIN": false,
+    "ONLINE_PROMOTIONS": [],
+    "ONLINE_COFFEE": false,
+    "ONLINE_STIU": false
+  },
+  {
+    "ID": "17811279",
+    "NAME": "АЗС №18",
+    "LONGITUDE": "37.34809",
+    "LATITUDE": "55.86041",
+    "IDENTIFIER": "1689",
+    "REGION": "136",
+    "ASUID": null,
+    "WAYID": "",
+    "AZSGOID": null,
+    "URLTOTIP": "",
+    "NOTICE_TEXT": "",
+    "NOTICE_URL": "",
+    "BRAND": "GPN",
+    "PLACE": "Москва, Пятницкое, 51",
+    "SERVICES": [
+      "17813335",
+      "17813338",
+      "17813343",
+      "17813345",
+      "17813360",
+      "17814727",
+      "17813366",
+      "17814726"
+    ],
+    "AAZS": 1,
+    "FUEL": [
+      "175",
+      "177"
+    ],
+    "PRICE": {
+      "175": "57.35",
+      "177": "50.85"
+    },
+    "FUELS_DATA": [
+      {
+        "id": "175",
+        "name": "G-95",
+        "price": "57.35"
+      },
+      {
+        "id": "177",
+        "name": "92",
+        "price": "50.85"
+      }
+    ],
+    "PRICETIME": 1747913446,
+    "CURRENCY": "RUB",
+    "POOL": 0,
+    "ONLINE_DISCOUNT": null,
+    "ONLINE_DISCOUNT_PIN": false,
+    "ONLINE_PROMOTIONS": [],
+    "ONLINE_COFFEE": false,
+    "ONLINE_STIU": false
+  },
+  {
+    "ID": "17811139",
+    "NAME": "АЗС №19",
+    "LONGITUDE": "30.23529",
+    "LATITUDE": "60.00831",
+    "IDENTIFIER": "1126",
+    "REGION": "139",
+    "ASUID": "",
+    "WAYID": "",
+    "AZSGOID": "",
+    "URLTOTIP": "",
+    "NOTICE_TEXT": "",
+    "NOTICE_URL": "",
+    "BRAND": "GPN",
+    "PLACE": "Санкт-Петербург, Планерная, 30",
+    "SERVICES": [
+      "17813325",
+      "17813326",
+      "17813327",
+      "17813328",
+      "17813333",
+      "17813335",
+      "17813336",
+      "17813338",
+      "17813343",
+      "17813351",
+      "17813352",
+      "17813356",
+      "17813360",
+      "17813362",
+      "17814727",
+      "17813366",
+      "17813541",
+      "17814726"
+    ],
+    "AAZS": 0,
+    "FUEL": [
+      "175",
+      "176",
+      "177",
+      "179"
+    ],
+    "PRICE": {
+      "175": "57.05",
+      "176": "55.45",
+      "177": "51.60",
+      "2719703": "63.40"
+    },
+    "FUELS_DATA": [
+      {
+        "id": "175",
+        "name": "G-95",
+        "price": "57.05"
+      },
+      {
+        "id": "176",
+        "name": "95",
+        "price": "55.45"
+      },
+      {
+        "id": "177",
+        "name": "92",
+        "price": "51.60"
+      },
+      {
+        "id": "179",
+        "name": "ДТл",
+        "price": ""
+      }
+    ],
+    "PRICETIME": 1747913446,
+    "CURRENCY": "RUB",
+    "POOL": 0,
+    "ONLINE_DISCOUNT": {
+      "rubs": "0.00",
+      "percent": "0.00",
+      "from_liters": "0.00"
+    },
+    "ONLINE_DISCOUNT_PIN": false,
+    "ONLINE_PROMOTIONS": [
+      {
+        "banner": {
+          "imgUrl": "https://images.azsgo.com/images/xhdpi/coffee-3rub",
+          "text": "111111111111111111111111111",
+          "title": "11111111111111111111111"
+        },
+        "code": "10%кофе",
+        "endDate": 1752872399,
+        "promotionRules": "Я ДУБЛИРУЮСЬ Я ДУБЛИРУЮСЬ",
+        "startDate": 1682888400
+      }
+    ],
+    "ONLINE_COFFEE": true,
+    "ONLINE_STIU": true
+  },
+  {
+    "ID": "17812182",
+    "NAME": "АЗС №19",
+    "LONGITUDE": "37.40067",
+    "LATITUDE": "55.89748",
+    "IDENTIFIER": "11115",
+    "REGION": "136",
+    "ASUID": null,
+    "WAYID": "",
+    "AZSGOID": null,
+    "URLTOTIP": "",
+    "NOTICE_TEXT": "",
+    "NOTICE_URL": "",
+    "BRAND": "GPN",
+    "PLACE": "Москва, Новокуркинское, 14А",
+    "SERVICES": [
+      "17813325",
+      "17813326",
+      "17813328",
+      "17813333",
+      "17813335",
+      "17813336",
+      "17813338",
+      "17813343",
+      "17813351",
+      "17813352",
+      "17813354",
+      "17813356",
+      "17813360",
+      "17814727",
+      "17813366",
+      "17813541",
+      "17814726"
+    ],
+    "AAZS": 0,
+    "FUEL": [
+      "175",
+      "177",
+      "14606701",
+      "179"
+    ],
+    "PRICE": {
+      "14606701": "67.60",
+      "175": "55.70",
+      "177": "50.30",
+      "179": "62.30"
+    },
+    "FUELS_DATA": [
+      {
+        "id": "175",
+        "name": "G-95",
+        "price": "55.70"
+      },
+      {
+        "id": "177",
+        "name": "92",
+        "price": "50.30"
+      },
+      {
+        "id": "14606701",
+        "name": "G-100",
+        "price": "67.60"
+      },
+      {
+        "id": "179",
+        "name": "ДТл",
+        "price": ""
+      }
+    ],
+    "PRICETIME": 1747913453,
+    "CURRENCY": "RUB",
+    "POOL": 0,
+    "ONLINE_DISCOUNT": null,
+    "ONLINE_DISCOUNT_PIN": false,
+    "ONLINE_PROMOTIONS": [],
+    "ONLINE_COFFEE": false,
+    "ONLINE_STIU": false
+  },
+  {
+    "ID": "17811140",
+    "NAME": "АЗС №20",
+    "LONGITUDE": "30.19884",
+    "LATITUDE": "59.85311",
+    "IDENTIFIER": "1127",
+    "REGION": "139",
+    "ASUID": null,
+    "WAYID": "",
+    "AZSGOID": null,
+    "URLTOTIP": "",
+    "NOTICE_TEXT": "",
+    "NOTICE_URL": "",
+    "BRAND": "GPN",
+    "PLACE": "Санкт-Петербург, Десантников, 21",
+    "SERVICES": [
+      "17813325",
+      "17813326",
+      "17813327",
+      "17813328",
+      "17813333",
+      "17813335",
+      "17813336",
+      "17813338",
+      "17813343",
+      "17813351",
+      "17813352",
+      "17813356",
+      "17813360",
+      "17813362",
+      "17814727",
+      "17813366",
+      "17814726"
+    ],
+    "AAZS": 0,
+    "FUEL": [
+      "175",
+      "176",
+      "177",
+      "3240"
+    ],
+    "PRICE": {
+      "175": "57.10",
+      "176": "55.50",
+      "177": "51.65",
+      "3240": "65.20"
+    },
+    "FUELS_DATA": [
+      {
+        "id": "175",
+        "name": "G-95",
+        "price": "57.10"
+      },
+      {
+        "id": "176",
+        "name": "95",
+        "price": "55.50"
+      },
+      {
+        "id": "177",
+        "name": "92",
+        "price": "51.65"
+      },
+      {
+        "id": "3240",
+        "name": "G-ДТл",
+        "price": ""
+      }
+    ],
+    "PRICETIME": 1747913446,
+    "CURRENCY": "RUB",
+    "POOL": 0,
+    "ONLINE_DISCOUNT": null,
+    "ONLINE_DISCOUNT_PIN": false,
+    "ONLINE_PROMOTIONS": [],
+    "ONLINE_COFFEE": false,
+    "ONLINE_STIU": false
+  },
+  {
+    "ID": "17811265",
+    "NAME": "АЗС №20",
+    "LONGITUDE": "37.67199",
+    "LATITUDE": "55.77951",
+    "IDENTIFIER": "1674",
+    "REGION": "136",
+    "ASUID": null,
+    "WAYID": "",
+    "AZSGOID": null,
+    "URLTOTIP": "",
+    "NOTICE_TEXT": "",
+    "NOTICE_URL": "",
+    "BRAND": "GPN",
+    "PLACE": "Москва, Гаврикова, 4",
+    "SERVICES": [
+      "17813325",
+      "17813326",
+      "17813328",
+      "17813333",
+      "17813335",
+      "17813338",
+      "17813343",
+      "17813351",
+      "17813354",
+      "17813356",
+      "17813357",
+      "17813360",
+      "17814727",
+      "17813366",
+      "17814726"
+    ],
+    "AAZS": 0,
+    "FUEL": [
+      "175",
+      "176",
+      "177",
+      "179"
+    ],
+    "PRICE": {
+      "175": "57.30",
+      "176": "55.70",
+      "177": "50.45",
+      "2719703": "63.25"
+    },
+    "FUELS_DATA": [
+      {
+        "id": "175",
+        "name": "G-95",
+        "price": "57.30"
+      },
+      {
+        "id": "176",
+        "name": "95",
+        "price": "55.70"
+      },
+      {
+        "id": "177",
+        "name": "92",
+        "price": "50.45"
+      },
+      {
+        "id": "179",
+        "name": "ДТл",
+        "price": ""
+      }
+    ],
+    "PRICETIME": 1747913446,
+    "CURRENCY": "RUB",
+    "POOL": 0,
+    "ONLINE_DISCOUNT": null,
+    "ONLINE_DISCOUNT_PIN": false,
+    "ONLINE_PROMOTIONS": [],
+    "ONLINE_COFFEE": false,
+    "ONLINE_STIU": false
+  },
+  {
+    "ID": "17811274",
+    "NAME": "АЗС №21",
+    "LONGITUDE": "37.47209",
+    "LATITUDE": "55.67469",
+    "IDENTIFIER": "1684",
+    "REGION": "136",
+    "ASUID": null,
+    "WAYID": "",
+    "AZSGOID": null,
+    "URLTOTIP": "",
+    "NOTICE_TEXT": "",
+    "NOTICE_URL": "",
+    "BRAND": "GPN",
+    "PLACE": "Москва, Олимпийская деревня, 4А",
+    "SERVICES": [
+      "17813335",
+      "17813338",
+      "17813343",
+      "17813345",
+      "17813360",
+      "17814727",
+      "17813366",
+      "17814726"
+    ],
+    "AAZS": 1,
+    "FUEL": [
+      "175",
+      "177"
+    ],
+    "PRICE": {
+      "175": "57.60",
+      "177": "50.95"
+    },
+    "FUELS_DATA": [
+      {
+        "id": "175",
+        "name": "G-95",
+        "price": "57.60"
+      },
+      {
+        "id": "177",
+        "name": "92",
+        "price": "50.95"
+      }
+    ],
+    "PRICETIME": 1747913446,
+    "CURRENCY": "RUB",
+    "POOL": 0,
+    "ONLINE_DISCOUNT": null,
+    "ONLINE_DISCOUNT_PIN": false,
+    "ONLINE_PROMOTIONS": [],
+    "ONLINE_COFFEE": false,
+    "ONLINE_STIU": false
+  },
+  {
+    "ID": "17811142",
+    "NAME": "АЗС №22",
+    "LONGITUDE": "30.26909",
+    "LATITUDE": "59.99781",
+    "IDENTIFIER": "1129",
+    "REGION": "139",
+    "ASUID": null,
+    "WAYID": "",
+    "AZSGOID": null,
+    "URLTOTIP": "",
+    "NOTICE_TEXT": "",
+    "NOTICE_URL": "",
+    "BRAND": "GPN",
+    "PLACE": "Санкт-Петербург, Полевая-Сабировская, 56",
+    "SERVICES": [
+      "17813325",
+      "17813326",
+      "17813328",
+      "17813333",
+      "17813335",
+      "17813336",
+      "17813338",
+      "17813343",
+      "17813351",
+      "17813352",
+      "17813356",
+      "17813358",
+      "17813360",
+      "17813362",
+      "17814727",
+      "17813366",
+      "17813541",
+      "17814726"
+    ],
+    "AAZS": 0,
+    "FUEL": [
+      "175",
+      "176",
+      "177",
+      "179"
+    ],
+    "PRICE": {
+      "175": "57.35",
+      "176": "55.75",
+      "177": "51.45",
+      "2719703": "63.70"
+    },
+    "FUELS_DATA": [
+      {
+        "id": "175",
+        "name": "G-95",
+        "price": "57.35"
+      },
+      {
+        "id": "176",
+        "name": "95",
+        "price": "55.75"
+      },
+      {
+        "id": "177",
+        "name": "92",
+        "price": "51.45"
+      },
+      {
+        "id": "179",
+        "name": "ДТл",
+        "price": ""
+      }
+    ],
+    "PRICETIME": 1747913446,
+    "CURRENCY": "RUB",
+    "POOL": 0,
+    "ONLINE_DISCOUNT": null,
+    "ONLINE_DISCOUNT_PIN": false,
+    "ONLINE_PROMOTIONS": [],
+    "ONLINE_COFFEE": false,
+    "ONLINE_STIU": false
+  },
+  {
+    "ID": "17811143",
+    "NAME": "АЗС №23",
+    "LONGITUDE": "30.24259",
+    "LATITUDE": "60.00774",
+    "IDENTIFIER": "1130",
+    "REGION": "139",
+    "ASUID": null,
+    "WAYID": "",
+    "AZSGOID": null,
+    "URLTOTIP": "",
+    "NOTICE_TEXT": "",
+    "NOTICE_URL": "",
+    "BRAND": "GPN",
+    "PLACE": "Санкт-Петербург, Камышовая 21",
+    "SERVICES": [
+      "17813325",
+      "17813326",
+      "17813328",
+      "17813330",
+      "17813333",
+      "17813335",
+      "17813336",
+      "17813338",
+      "17813343",
+      "17813351",
+      "17813352",
+      "17813356",
+      "17813358",
+      "17813360",
+      "17813362",
+      "17814727",
+      "17813366",
+      "17813541",
+      "17813983",
+      "17814726"
+    ],
+    "AAZS": 0,
+    "FUEL": [
+      "175",
+      "177",
+      "180",
+      "14606701",
+      "3240"
+    ],
+    "PRICE": {
+      "14606701": "69.30",
+      "175": "56.20",
+      "177": "51.70",
+      "180": "26.99",
+      "3240": "64.75"
+    },
+    "FUELS_DATA": [
+      {
+        "id": "175",
+        "name": "G-95",
+        "price": "56.20"
+      },
+      {
+        "id": "177",
+        "name": "92",
+        "price": "51.70"
+      },
+      {
+        "id": "180",
+        "name": "ГАЗ",
+        "price": "26.99"
+      },
+      {
+        "id": "14606701",
+        "name": "G-100",
+        "price": "69.30"
+      },
+      {
+        "id": "3240",
+        "name": "G-ДТл",
+        "price": ""
+      }
+    ],
+    "PRICETIME": 1747913446,
+    "CURRENCY": "RUB",
+    "POOL": 0,
+    "ONLINE_DISCOUNT": null,
+    "ONLINE_DISCOUNT_PIN": false,
+    "ONLINE_PROMOTIONS": [],
+    "ONLINE_COFFEE": false,
+    "ONLINE_STIU": false
+  },
+  {
+    "ID": "17811873",
+    "NAME": "АЗС №26",
+    "LONGITUDE": "30.36088",
+    "LATITUDE": "60.08723",
+    "IDENTIFIER": "3353",
+    "REGION": "139",
+    "ASUID": null,
+    "WAYID": "",
+    "AZSGOID": null,
+    "URLTOTIP": "",
+    "NOTICE_TEXT": "",
+    "NOTICE_URL": "",
+    "BRAND": "GPN",
+    "PLACE": "Санкт-Петербург, Энгельса, 190, 1",
+    "SERVICES": [
+      "17813325",
+      "17813326",
+      "17813328",
+      "17813331",
+      "17813333",
+      "17813335",
+      "17813336",
+      "17813338",
+      "17813343",
+      "17813351",
+      "17813352",
+      "17813354",
+      "17813356",
+      "17813357",
+      "17813360",
+      "17814727",
+      "17813366",
+      "17814726"
+    ],
+    "AAZS": 0,
+    "FUEL": [
+      "175",
+      "176",
+      "177",
+      "3240"
+    ],
+    "PRICE": {
+      "175": "56.90",
+      "176": "55.30",
+      "177": "51.70",
+      "3240": "64.45"
+    },
+    "FUELS_DATA": [
+      {
+        "id": "175",
+        "name": "G-95",
+        "price": "56.90"
+      },
+      {
+        "id": "176",
+        "name": "95",
+        "price": "55.30"
+      },
+      {
+        "id": "177",
+        "name": "92",
+        "price": "51.70"
+      },
+      {
+        "id": "3240",
+        "name": "G-ДТл",
+        "price": ""
+      }
+    ],
+    "PRICETIME": 1747913451,
+    "CURRENCY": "RUB",
+    "POOL": 0,
+    "ONLINE_DISCOUNT": null,
+    "ONLINE_DISCOUNT_PIN": false,
+    "ONLINE_PROMOTIONS": [],
+    "ONLINE_COFFEE": false,
+    "ONLINE_STIU": false
+  },
+  {
+    "ID": "17811295",
+    "NAME": "АЗС №28",
+    "LONGITUDE": "37.06375",
+    "LATITUDE": "56.13417",
+    "IDENTIFIER": "1705",
+    "REGION": "136",
+    "ASUID": null,
+    "WAYID": "",
+    "AZSGOID": null,
+    "URLTOTIP": "",
+    "NOTICE_TEXT": "",
+    "NOTICE_URL": "",
+    "BRAND": "GPN",
+    "PLACE": "Пешки, М10 Москва-С.Петербург (56 км)",
+    "SERVICES": [
+      "17813325",
+      "17813326",
+      "17813327",
+      "17813328",
+      "17813333",
+      "17813335",
+      "17813336",
+      "17813338",
+      "17813343",
+      "17813351",
+      "17813352",
+      "17813353",
+      "17813354",
+      "17813356",
+      "17813360",
+      "17814727",
+      "17813366",
+      "17813541",
+      "17813627",
+      "17814726"
+    ],
+    "AAZS": 0,
+    "FUEL": [
+      "175",
+      "176",
+      "177",
+      "14606701",
+      "179"
+    ],
+    "PRICE": {
+      "14606701": "68.30",
+      "175": "56.65",
+      "176": "55.05",
+      "177": "50.40",
+      "179": "62.25"
+    },
+    "FUELS_DATA": [
+      {
+        "id": "175",
+        "name": "G-95",
+        "price": "56.65"
+      },
+      {
+        "id": "176",
+        "name": "95",
+        "price": "55.05"
+      },
+      {
+        "id": "177",
+        "name": "92",
+        "price": "50.40"
+      },
+      {
+        "id": "14606701",
+        "name": "G-100",
+        "price": "68.30"
+      },
+      {
+        "id": "179",
+        "name": "ДТл",
+        "price": ""
+      }
+    ],
+    "PRICETIME": 1747913446,
+    "CURRENCY": "RUB",
+    "POOL": 0,
+    "ONLINE_DISCOUNT": null,
+    "ONLINE_DISCOUNT_PIN": false,
+    "ONLINE_PROMOTIONS": [],
+    "ONLINE_COFFEE": false,
+    "ONLINE_STIU": false
+  },
+  {
+    "ID": "17811154",
+    "NAME": "АЗС №29",
+    "LONGITUDE": "39.80193",
+    "LATITUDE": "57.54348",
+    "IDENTIFIER": "1271",
+    "REGION": "145",
+    "ASUID": null,
+    "WAYID": "",
+    "AZSGOID": null,
+    "URLTOTIP": "",
+    "NOTICE_TEXT": "",
+    "NOTICE_URL": "",
+    "BRAND": "GPN",
+    "PLACE": "Телегинский сельсовет, М8 Москва-Холмогоры (254 км, справа)",
+    "SERVICES": [
+      "17813325",
+      "17813326",
+      "17813328",
+      "17813333",
+      "17813335",
+      "17813336",
+      "17813338",
+      "17813343",
+      "17813351",
+      "17813352",
+      "17813353",
+      "17813356",
+      "17813360",
+      "17814727",
+      "17813366",
+      "17814726"
+    ],
+    "AAZS": 0,
+    "FUEL": [
+      "175",
+      "176",
+      "177",
+      "14606701",
+      "179"
+    ],
+    "PRICE": {
+      "14606701": "64.15",
+      "175": "54.20",
+      "176": "52.80",
+      "177": "49.75",
+      "179": "61.65"
+    },
+    "FUELS_DATA": [
+      {
+        "id": "175",
+        "name": "G-95",
+        "price": "54.20"
+      },
+      {
+        "id": "176",
+        "name": "95",
+        "price": "52.80"
+      },
+      {
+        "id": "177",
+        "name": "92",
+        "price": "49.75"
+      },
+      {
+        "id": "14606701",
+        "name": "G-100",
+        "price": "64.15"
+      },
+      {
+        "id": "179",
+        "name": "ДТл",
+        "price": ""
+      }
+    ],
+    "PRICETIME": 1747913446,
+    "CURRENCY": "RUB",
+    "POOL": 0,
+    "ONLINE_DISCOUNT": null,
+    "ONLINE_DISCOUNT_PIN": false,
+    "ONLINE_PROMOTIONS": [],
+    "ONLINE_COFFEE": false,
+    "ONLINE_STIU": false
+  },
+  {
+    "ID": "17811874",
+    "NAME": "АЗС №30",
+    "LONGITUDE": "30.28842",
+    "LATITUDE": "59.89639",
+    "IDENTIFIER": "3354",
+    "REGION": "139",
+    "ASUID": null,
+    "WAYID": "",
+    "AZSGOID": null,
+    "URLTOTIP": "",
+    "NOTICE_TEXT": "",
+    "NOTICE_URL": "",
+    "BRAND": "GPN",
+    "PLACE": "Санкт-Петербург, Маршала Говорова, 41",
+    "SERVICES": [
+      "17813325",
+      "17813326",
+      "17813327",
+      "17813328",
+      "17813333",
+      "17813335",
+      "17813336",
+      "17813338",
+      "17813343",
+      "17813351",
+      "17813352",
+      "17813356",
+      "17813357",
+      "17813360",
+      "17814727",
+      "17813366",
+      "17814726"
+    ],
+    "AAZS": 0,
+    "FUEL": [
+      "175",
+      "176",
+      "177",
+      "179"
+    ],
+    "PRICE": {
+      "175": "56.90",
+      "176": "55.50",
+      "177": "51.10",
+      "2719703": "63.35"
+    },
+    "FUELS_DATA": [
+      {
+        "id": "175",
+        "name": "G-95",
+        "price": "56.90"
+      },
+      {
+        "id": "176",
+        "name": "95",
+        "price": "55.50"
+      },
+      {
+        "id": "177",
+        "name": "92",
+        "price": "51.10"
+      },
+      {
+        "id": "179",
+        "name": "ДТл",
+        "price": ""
+      }
+    ],
+    "PRICETIME": 1747913451,
+    "CURRENCY": "RUB",
+    "POOL": 0,
+    "ONLINE_DISCOUNT": null,
+    "ONLINE_DISCOUNT_PIN": false,
+    "ONLINE_PROMOTIONS": [],
+    "ONLINE_COFFEE": false,
+    "ONLINE_STIU": false
+  },
+  {
+    "ID": "17812050",
+    "NAME": "АЗС №34",
+    "LONGITUDE": "30.44475",
+    "LATITUDE": "59.90937",
+    "IDENTIFIER": "6480",
+    "REGION": "139",
+    "ASUID": null,
+    "WAYID": "",
+    "AZSGOID": "",
+    "URLTOTIP": "",
+    "NOTICE_TEXT": "",
+    "NOTICE_URL": "",
+    "BRAND": "GPN",
+    "PLACE": "Санкт-Петербург, Дальневосточный, 11, 2",
+    "SERVICES": [
+      "17813335",
+      "17813338",
+      "17813343",
+      "17813345",
+      "17813356",
+      "17813360",
+      "17814727",
+      "17813366",
+      "17814726"
+    ],
+    "AAZS": 1,
+    "FUEL": [
+      "175",
+      "176",
+      "177",
+      "179"
+    ],
+    "PRICE": {
+      "175": "56.15",
+      "176": "54.55",
+      "177": "50.90",
+      "2719703": "62.45"
+    },
+    "FUELS_DATA": [
+      {
+        "id": "175",
+        "name": "G-95",
+        "price": "56.15"
+      },
+      {
+        "id": "176",
+        "name": "95",
+        "price": "54.55"
+      },
+      {
+        "id": "177",
+        "name": "92",
+        "price": "50.90"
+      },
+      {
+        "id": "179",
+        "name": "ДТл",
+        "price": ""
+      }
+    ],
+    "PRICETIME": 1747913453,
+    "CURRENCY": "RUB",
+    "POOL": 0,
+    "ONLINE_DISCOUNT": {
+      "rubs": "0.00",
+      "percent": "0.00",
+      "from_liters": "0.00"
+    },
+    "ONLINE_DISCOUNT_PIN": false,
+    "ONLINE_PROMOTIONS": [
+      {
+        "banner": {
+          "imgUrl": "https://images.azsgo.com/images/xhdpi/coffee-3rub",
+          "text": "111111111111111111111111111",
+          "title": "11111111111111111111111"
+        },
+        "code": "10%кофе",
+        "endDate": 1752872399,
+        "promotionRules": "Я ДУБЛИРУЮСЬ Я ДУБЛИРУЮСЬ",
+        "startDate": 1682888400
+      }
+    ],
+    "ONLINE_COFFEE": true,
+    "ONLINE_STIU": false
+  },
+  {
+    "ID": "17811883",
+    "NAME": "АЗС №35",
+    "LONGITUDE": "30.25058",
+    "LATITUDE": "60.02536",
+    "IDENTIFIER": "3642",
+    "REGION": "139",
+    "ASUID": null,
+    "WAYID": "",
+    "AZSGOID": null,
+    "URLTOTIP": "",
+    "NOTICE_TEXT": "",
+    "NOTICE_URL": "",
+    "BRAND": "GPN",
+    "PLACE": "Санкт-Петербург, Королева, 51",
+    "SERVICES": [
+      "17813325",
+      "17813326",
+      "17813327",
+      "17813328",
+      "17813333",
+      "17813335",
+      "17813336",
+      "17813338",
+      "17813343",
+      "17813351",
+      "17813352",
+      "17813356",
+      "17813360",
+      "17813362",
+      "17814727",
+      "17813366",
+      "17814726"
+    ],
+    "AAZS": 0,
+    "FUEL": [
+      "175",
+      "176",
+      "177",
+      "179"
+    ],
+    "PRICE": {
+      "176": "55.40",
+      "177": "51.10",
+      "2719703": "63.45"
+    },
+    "FUELS_DATA": [
+      {
+        "id": "175",
+        "name": "G-95",
+        "price": ""
+      },
+      {
+        "id": "176",
+        "name": "95",
+        "price": "55.40"
+      },
+      {
+        "id": "177",
+        "name": "92",
+        "price": "51.10"
+      },
+      {
+        "id": "179",
+        "name": "ДТл",
+        "price": ""
+      }
+    ],
+    "PRICETIME": 1747913451,
+    "CURRENCY": "RUB",
+    "POOL": 0,
+    "ONLINE_DISCOUNT": null,
+    "ONLINE_DISCOUNT_PIN": false,
+    "ONLINE_PROMOTIONS": [],
+    "ONLINE_COFFEE": false,
+    "ONLINE_STIU": false
+  },
+  {
+    "ID": "17811266",
+    "NAME": "АЗС №38",
+    "LONGITUDE": "37.78221",
+    "LATITUDE": "55.61913",
+    "IDENTIFIER": "1675",
+    "REGION": "136",
+    "ASUID": null,
+    "WAYID": "",
+    "AZSGOID": null,
+    "URLTOTIP": "",
+    "NOTICE_TEXT": "",
+    "NOTICE_URL": "",
+    "BRAND": "GPN",
+    "PLACE": "Москва, МКАД, 8 (19 км, внутренняя сторона)",
+    "SERVICES": [
+      "17813325",
+      "17813326",
+      "17813327",
+      "17813328",
+      "17813333",
+      "17813335",
+      "17813336",
+      "17813338",
+      "17813343",
+      "17813351",
+      "17813354",
+      "17813356",
+      "17813360",
+      "17814727",
+      "17813366",
+      "17814726"
+    ],
+    "AAZS": 0,
+    "FUEL": [
+      "175",
+      "176",
+      "177",
+      "14606701",
+      "179"
+    ],
+    "PRICE": {
+      "14606701": "68.45",
+      "175": "58.20",
+      "176": "56.60",
+      "177": "51.35",
+      "179": "63.15"
+    },
+    "FUELS_DATA": [
+      {
+        "id": "175",
+        "name": "G-95",
+        "price": "58.20"
+      },
+      {
+        "id": "176",
+        "name": "95",
+        "price": "56.60"
+      },
+      {
+        "id": "177",
+        "name": "92",
+        "price": "51.35"
+      },
+      {
+        "id": "14606701",
+        "name": "G-100",
+        "price": "68.45"
+      },
+      {
+        "id": "179",
+        "name": "ДТл",
+        "price": ""
+      }
+    ],
+    "PRICETIME": 1747913446,
+    "CURRENCY": "RUB",
+    "POOL": 0,
+    "ONLINE_DISCOUNT": null,
+    "ONLINE_DISCOUNT_PIN": false,
+    "ONLINE_PROMOTIONS": [],
+    "ONLINE_COFFEE": false,
+    "ONLINE_STIU": false
+  },
+  {
+    "ID": "17811946",
+    "NAME": "АЗС №38",
+    "LONGITUDE": "30.47089",
+    "LATITUDE": "59.96158",
+    "IDENTIFIER": "5661",
+    "REGION": "139",
+    "ASUID": null,
+    "WAYID": "",
+    "AZSGOID": null,
+    "URLTOTIP": "",
+    "NOTICE_TEXT": "",
+    "NOTICE_URL": "",
+    "BRAND": "GPN",
+    "PLACE": "Санкт-Петербург, Потапова, 7",
+    "SERVICES": [
+      "17813325",
+      "17813326",
+      "17813328",
+      "17813330",
+      "17813333",
+      "17813335",
+      "17813336",
+      "17813338",
+      "17813342",
+      "17813343",
+      "17813351",
+      "17813352",
+      "17813356",
+      "17813358",
+      "17813360",
+      "17814727",
+      "17813366",
+      "17813541",
+      "17814726"
+    ],
+    "AAZS": 0,
+    "FUEL": [
+      "175",
+      "176",
+      "177",
+      "179"
+    ],
+    "PRICE": {
+      "175": "56.10",
+      "176": "54.50",
+      "177": "50.05",
+      "179": "62.70"
+    },
+    "FUELS_DATA": [
+      {
+        "id": "175",
+        "name": "G-95",
+        "price": "56.10"
+      },
+      {
+        "id": "176",
+        "name": "95",
+        "price": "54.50"
+      },
+      {
+        "id": "177",
+        "name": "92",
+        "price": "50.05"
+      },
+      {
+        "id": "179",
+        "name": "ДТл",
+        "price": ""
+      }
+    ],
+    "PRICETIME": 1747913451,
+    "CURRENCY": "RUB",
+    "POOL": 0,
+    "ONLINE_DISCOUNT": null,
+    "ONLINE_DISCOUNT_PIN": false,
+    "ONLINE_PROMOTIONS": [],
+    "ONLINE_COFFEE": false,
+    "ONLINE_STIU": false
+  },
+  {
+    "ID": "17811956",
+    "NAME": "АЗС №39",
+    "LONGITUDE": "30.08504",
+    "LATITUDE": "60.19257",
+    "IDENTIFIER": "5791",
+    "REGION": "139",
+    "ASUID": null,
+    "WAYID": "",
+    "AZSGOID": null,
+    "URLTOTIP": "",
+    "NOTICE_TEXT": "",
+    "NOTICE_URL": "",
+    "BRAND": "GPN",
+    "PLACE": "Садоводство, А122 Санкт-Петербург-Парголово-Огоньки (36 км)",
+    "SERVICES": [
+      "17813325",
+      "17813326",
+      "17813328",
+      "17813333",
+      "17813335",
+      "17813336",
+      "17813338",
+      "17813343",
+      "17813351",
+      "17813352",
+      "17813353",
+      "17813356",
+      "17813360",
+      "17813362",
+      "17814727",
+      "17813366",
+      "17814726"
+    ],
+    "AAZS": 0,
+    "FUEL": [
+      "175",
+      "176",
+      "177",
+      "179",
+      "3240"
+    ],
+    "PRICE": {
+      "175": "55.80",
+      "176": "54.70",
+      "177": "51.10",
+      "2719703": "62.50",
+      "3240": "64.00"
+    },
+    "FUELS_DATA": [
+      {
+        "id": "175",
+        "name": "G-95",
+        "price": "55.80"
+      },
+      {
+        "id": "176",
+        "name": "95",
+        "price": "54.70"
+      },
+      {
+        "id": "177",
+        "name": "92",
+        "price": "51.10"
+      },
+      {
+        "id": "179",
+        "name": "ДТл",
+        "price": ""
+      },
+      {
+        "id": "3240",
+        "name": "G-ДТл",
+        "price": ""
+      }
+    ],
+    "PRICETIME": 1747913451,
+    "CURRENCY": "RUB",
+    "POOL": 0,
+    "ONLINE_DISCOUNT": null,
+    "ONLINE_DISCOUNT_PIN": false,
+    "ONLINE_PROMOTIONS": [],
+    "ONLINE_COFFEE": false,
+    "ONLINE_STIU": false
+  },
+  {
+    "ID": "17811275",
+    "NAME": "АЗС №40",
+    "LONGITUDE": "37.57307",
+    "LATITUDE": "55.58046",
+    "IDENTIFIER": "1685",
+    "REGION": "136",
+    "ASUID": null,
+    "WAYID": "",
+    "AZSGOID": null,
+    "URLTOTIP": "",
+    "NOTICE_TEXT": "",
+    "NOTICE_URL": "",
+    "BRAND": "GPN",
+    "PLACE": "Москва, МКАД, 7, 1 (34-Й КМ)",
+    "SERVICES": [
+      "17813325",
+      "17813326",
+      "17813328",
+      "17813333",
+      "17813335",
+      "17813336",
+      "17813338",
+      "17813343",
+      "17813351",
+      "17813352",
+      "17813353",
+      "17813354",
+      "17813356",
+      "17813360",
+      "17813362",
+      "17814727",
+      "17813366",
+      "17813541",
+      "17814726"
+    ],
+    "AAZS": 0,
+    "FUEL": [
+      "175",
+      "176",
+      "177",
+      "14606701",
+      "179"
+    ],
+    "PRICE": {
+      "14606701": "68.85",
+      "175": "57.95",
+      "176": "56.35",
+      "177": "50.90",
+      "179": "63.25"
+    },
+    "FUELS_DATA": [
+      {
+        "id": "175",
+        "name": "G-95",
+        "price": "57.95"
+      },
+      {
+        "id": "176",
+        "name": "95",
+        "price": "56.35"
+      },
+      {
+        "id": "177",
+        "name": "92",
+        "price": "50.90"
+      },
+      {
+        "id": "14606701",
+        "name": "G-100",
+        "price": "68.85"
+      },
+      {
+        "id": "179",
+        "name": "ДТл",
+        "price": ""
+      }
+    ],
+    "PRICETIME": 1747913446,
+    "CURRENCY": "RUB",
+    "POOL": 0,
+    "ONLINE_DISCOUNT": null,
+    "ONLINE_DISCOUNT_PIN": false,
+    "ONLINE_PROMOTIONS": [],
+    "ONLINE_COFFEE": false,
+    "ONLINE_STIU": false
+  },
+  {
+    "ID": "17812196",
+    "NAME": "АЗС №41",
+    "LONGITUDE": "30.43382",
+    "LATITUDE": "60.01961",
+    "IDENTIFIER": "11142",
+    "REGION": "139",
+    "ASUID": null,
+    "WAYID": "",
+    "AZSGOID": null,
+    "URLTOTIP": "",
+    "NOTICE_TEXT": "",
+    "NOTICE_URL": "",
+    "BRAND": "GPN",
+    "PLACE": "Санкт-Петербург, Руставели, 45, 2",
+    "SERVICES": [
+      "17813335",
+      "17813338",
+      "17813343",
+      "17813345",
+      "17813356",
+      "17813360",
+      "17814727",
+      "17813366",
+      "17814726"
+    ],
+    "AAZS": 1,
+    "FUEL": [
+      "175",
+      "176",
+      "177",
+      "179"
+    ],
+    "PRICE": {
+      "175": "56.10",
+      "176": "54.50",
+      "177": "50.45",
+      "2719703": "62.60"
+    },
+    "FUELS_DATA": [
+      {
+        "id": "175",
+        "name": "G-95",
+        "price": "56.10"
+      },
+      {
+        "id": "176",
+        "name": "95",
+        "price": "54.50"
+      },
+      {
+        "id": "177",
+        "name": "92",
+        "price": "50.45"
+      },
+      {
+        "id": "179",
+        "name": "ДТл",
+        "price": ""
+      }
+    ],
+    "PRICETIME": 1747913453,
+    "CURRENCY": "RUB",
+    "POOL": 0,
+    "ONLINE_DISCOUNT": null,
+    "ONLINE_DISCOUNT_PIN": false,
+    "ONLINE_PROMOTIONS": [],
+    "ONLINE_COFFEE": false,
+    "ONLINE_STIU": false
+  },
+  {
+    "ID": "17812786",
+    "NAME": "АЗС №43",
+    "LONGITUDE": "30.35995",
+    "LATITUDE": "60.08279",
+    "IDENTIFIER": "5611",
+    "REGION": "139",
+    "ASUID": null,
+    "WAYID": "",
+    "AZSGOID": null,
+    "URLTOTIP": "",
+    "NOTICE_TEXT": "",
+    "NOTICE_URL": "",
+    "BRAND": "GPN",
+    "PLACE": "Санкт-Петербург, Энгельса, 173",
+    "SERVICES": [
+      "17813325",
+      "17813326",
+      "17813327",
+      "17813328",
+      "17813333",
+      "17813335",
+      "17813336",
+      "17813338",
+      "17813343",
+      "17813351",
+      "17813352",
+      "17813353",
+      "17813356",
+      "17813358",
+      "17813360",
+      "17813362",
+      "17814727",
+      "17813366",
+      "17813541",
+      "17814726"
+    ],
+    "AAZS": 0,
+    "FUEL": [
+      "175",
+      "177",
+      "14606701",
+      "179"
+    ],
+    "PRICE": {
+      "14606701": "69.00",
+      "175": "56.60",
+      "177": "51.65",
+      "179": "63.55"
+    },
+    "FUELS_DATA": [
+      {
+        "id": "175",
+        "name": "G-95",
+        "price": "56.60"
+      },
+      {
+        "id": "177",
+        "name": "92",
+        "price": "51.65"
+      },
+      {
+        "id": "14606701",
+        "name": "G-100",
+        "price": "69.00"
+      },
+      {
+        "id": "179",
+        "name": "ДТл",
+        "price": ""
+      }
+    ],
+    "PRICETIME": 1747913451,
+    "CURRENCY": "RUB",
+    "POOL": 0,
+    "ONLINE_DISCOUNT": null,
+    "ONLINE_DISCOUNT_PIN": false,
+    "ONLINE_PROMOTIONS": [],
+    "ONLINE_COFFEE": false,
+    "ONLINE_STIU": false
+  }
+]

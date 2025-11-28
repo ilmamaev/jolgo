@@ -1,0 +1,8 @@
+{
+  "status": 1,
+  "error": "",
+  "secret": "=InY6F1U2E3=a4dUdqtmRT1=EM5p0VXJleX=JjeRBHM2FTQ=",
+  "action": "enterVerificationCode",
+  "type": "sms",
+  "message": "Введите код подтверждения"
+}

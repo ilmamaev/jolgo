@@ -1,0 +1,8 @@
+{
+  "status": 1,
+  "error": "",
+  "secret": "=8UMOhFSQ=dnSFdkbzY=GUuJmcXZT=ZHRja3YWa=ylHWMJkU=",
+  "action": "enterTransferCode",
+  "message": "Сообщение с кодом подтверждения успешно отправлено.",
+  "type": "push"
+}

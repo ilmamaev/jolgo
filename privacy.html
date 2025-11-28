@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Политика конфиденциальности - Правила заправки</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --bg: #f3fbff;
+            --bg-blue: #0f9fe2;
+            --bg-dark: #0f3b5a;
+            --text-primary: #0f3b5a;
+            --text-secondary: #8a9ba7;
+            --hold: #cbd2d5;
+            --separator: #d6e0e4;
+            --blue-light: #e0f5ff;
+            --red: #fb4958;
+            --green: #3dc176;
+            --yellow: #f9ce33;
+            --cell: #ffffff;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.7;
+            color: var(--text-primary);
+            background: var(--bg);
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        /* Reading Progress Bar */
+        .reading-progress {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 0;
+            height: 3px;
+            background: var(--bg-dark);
+            z-index: 9999;
+            transition: width 0.1s ease-out;
+        }
+
+        /* Header */
+        header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: var(--cell);
+            border-bottom: 1px solid var(--separator);
+            z-index: 1000;
+            padding: 1.5rem 0;
+            transition: all 0.3s ease;
+        }
+
+        header.scrolled {
+            padding: 1rem 0;
+            box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .header-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--bg-blue);
+        }
+
+        .logo img {
+            width: 32px;
+            height: 32px;
+            border-radius: 8px;
+        }
+
+        .back-btn {
+            background: var(--bg-blue);
+            color: white;
+            text-decoration: none;
+            padding: 0.8rem 2rem;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            font-size: 0.95rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .back-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(15, 159, 226, 0.3);
+            filter: brightness(1.1);
+        }
+
+        /* Main Content */
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 120px 2rem 4rem;
+        }
+
+        .content {
+            background: var(--cell);
+            border: 1px solid var(--separator);
+            border-radius: 30px;
+            padding: 4rem;
+            box-shadow: 0 20px 60px rgba(15, 159, 226, 0.08);
+            animation: fadeInUp 0.6s ease-out;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        h1 {
+            font-size: 3rem;
+            font-weight: 800;
+            color: var(--text-primary);
+            margin-bottom: 2rem;
+            text-align: center;
+            letter-spacing: -1px;
+        }
+
+        .intro {
+            font-size: 1.15rem;
+            color: var(--text-secondary);
+            text-align: center;
+            margin-bottom: 3rem;
+            padding: 2rem;
+            background: var(--blue-light);
+            border-radius: 20px;
+            border-left: 5px solid var(--bg-dark);
+            line-height: 1.8;
+        }
+
+        h2 {
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin: 3rem 0 1.5rem;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+
+        h2::before {
+            content: '';
+            width: 5px;
+            height: 100%;
+            background: var(--bg-dark);
+            position: absolute;
+            left: 0;
+            top: 0;
+            border-radius: 3px;
+        }
+
+        p {
+            margin-bottom: 1.5rem;
+            color: var(--text-primary);
+            line-height: 1.9;
+        }
+
+        ul {
+            margin: 1.5rem 0 2rem 2rem;
+            color: var(--text-primary);
+        }
+
+        li {
+            margin-bottom: 0.75rem;
+            line-height: 1.8;
+            position: relative;
+            padding-left: 0.5rem;
+        }
+
+        li::marker {
+            color: var(--bg-dark);
+            font-weight: 700;
+        }
+
+        .contact-info {
+            background: var(--blue-light);
+            padding: 2rem;
+            border-radius: 20px;
+            margin: 2rem 0;
+            border-left: 5px solid var(--bg-dark);
+        }
+
+        .contact-info a {
+            color: var(--bg-dark);
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .contact-info a:hover {
+            opacity: 0.8;
+        }
+
+        .important-note {
+            background: var(--blue-light);
+            padding: 1.5rem 2rem;
+            border-radius: 15px;
+            margin: 2rem 0;
+            border-left: 5px solid var(--yellow);
+        }
+
+        .important-note p {
+            margin-bottom: 0;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+
+
+            .header-container {
+                padding: 0 1rem;
+            }
+
+            .logo {
+                font-size: 1.5rem;
+                font-weight: 700;
+                color: var(--accent);
+                letter-spacing: -0.5px;
+                text-transform: uppercase;
+            }
+
+            .logo img {
+                width: 28px;
+                height: 28px;
+            }
+
+            .back-btn {
+                padding: 0.6rem 1.5rem;
+                font-size: 0.85rem;
+            }
+
+            main {
+                padding: 100px 1rem 3rem;
+            }
+
+            .content {
+                padding: 2rem 1.5rem;
+                border-radius: 20px;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            h2 {
+                font-size: 1.4rem;
+            }
+
+            .intro {
+                font-size: 1rem;
+                padding: 1.5rem;
+            }
+
+            ul {
+                margin-left: 1rem;
+            }
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+<!-- Reading Progress -->
+<div class="reading-progress"></div>
+
+<!-- Header -->
+<header id="header">
+    <div class="header-container">
+        <div class="logo">
+            <img src="./img/logo.png" alt="Logo">
+            <span>ПРАВИЛА ЗАПРАВКИ</span>
+        </div>
+        <a href="./index.html" class="back-btn">
+            ← На главную
+        </a>
+    </div>
+</header>
+
+<!-- Main Content -->
+<main>
+    <div class="content">
+        <h1>Политика конфиденциальности</h1>
+
+        <div class="intro">
+            Настоящая Политика конфиденциальности определяет порядок сбора, обработки и защиты персональных данных пользователей мобильного приложения Правила заправки. Мы серьезно относимся к вопросам конфиденциальности и обеспечиваем надежную защиту информации наших пользователей в соответствии с требованиями действующего законодательства.
+        </div>
+
+        <h2>1. Основные положения</h2>
+        <p>
+            Данная Политика распространяется на все персональные данные, собираемые и обрабатываемые в процессе использования мобильного приложения «Правила заправки» и связанных с ним сервисов.
+        </p>
+        <p>
+            Оператором персональных данных выступает ООО «Правила заправки». Использование приложения означает полное согласие пользователя с условиями настоящей Политики конфиденциальности.
+        </p>
+
+        <h2>2. Какие данные мы собираем</h2>
+        <p>
+            В процессе работы с приложением могут собираться следующие категории персональных данных:
+        </p>
+        <ul>
+            <li>Контактная информация (телефон, email, ФИО)</li>
+            <li>История транзакций и операций с бонусными баллами</li>
+            <li>Статистика использования приложения и предпочтения</li>
+            <li>Техническая информация об устройстве (модель, ОС, версия приложения)</li>
+            <li>Данные о взаимодействии с функциями приложения</li>
+        </ul>
+
+        <h2>3. Цели обработки персональных данных</h2>
+        <p>
+            Собранные персональные данные используются исключительно для следующих целей:
+        </p>
+        <ul>
+            <li>Предоставление услуг программы лояльности и начисление бонусов</li>
+            <li>Создание и обслуживание виртуальной карты лояльности</li>
+            <li>Персонализация контента и специальных предложений</li>
+            <li>Информирование о новых акциях и выгодных предложениях партнеров</li>
+            <li>Обеспечение технической поддержки пользователей</li>
+            <li>Анализ эффективности работы приложения и улучшение пользовательского опыта</li>
+            <li>Выполнение требований действующего законодательства</li>
+        </ul>
+
+        <h2>4. Правовые основания обработки данных</h2>
+        <p>
+            Обработка персональных данных осуществляется на основании добровольного согласия пользователя, предоставленного путем использования приложения, в соответствии с Федеральным законом от 27.07.2006 № 152-ФЗ «О персональных данных» и другими применимыми нормативными актами Российской Федерации.
+        </p>
+
+        <h2>5. Передача данных третьим лицам</h2>
+        <p>
+            Персональные данные могут передаваться нашим партнерам (заправочные станции, автосервисы, автомойки, магазины автотоваров) исключительно в объеме, необходимом для выполнения услуг программы лояльности и начисления бонусов.
+        </p>
+        <div class="important-note">
+            <p>
+                <strong>Важно:</strong> Мы не передаем, не продаем и не обмениваем ваши персональные данные третьим лицам в коммерческих целях без вашего явного согласия.
+            </p>
+        </div>
+
+        <h2>6. Меры защиты персональных данных</h2>
+        <p>
+            Компания применяет современные организационные и технические меры для обеспечения защиты персональных данных от несанкционированного доступа, изменения, раскрытия или уничтожения:
+        </p>
+        <ul>
+            <li>Шифрование данных при передаче и хранении</li>
+            <li>Регулярное обновление систем безопасности</li>
+            <li>Ограничение доступа к персональным данным на уровне сотрудников</li>
+            <li>Регулярный аудит безопасности систем обработки данных</li>
+            <li>Соблюдение требований законодательства о защите персональных данных</li>
+        </ul>
+
+        <h2>7. Права пользователей</h2>
+        <p>В соответствии с действующим законодательством, вы имеете следующие права:</p>
+        <ul>
+            <li>Получать информацию о процессе обработки ваших персональных данных</li>
+            <li>Требовать уточнения, изменения или удаления неверных или неполных данных</li>
+            <li>Отозвать согласие на обработку персональных данных в любой момент</li>
+            <li>Ограничить обработку персональных данных в определенных случаях</li>
+            <li>Получить копию своих персональных данных в структурированном формате</li>
+            <li>Обратиться в уполномоченные органы для защиты своих прав</li>
+        </ul>
+
+        <h2>8. Сроки хранения данных</h2>
+        <p>
+            Персональные данные обрабатываются и хранятся в течение всего периода использования приложения. После прекращения использования данные сохраняются в течение 3 лет, если иное не предусмотрено требованиями законодательства или необходимостью защиты прав и законных интересов компании.
+        </p>
+
+        <h2>9. Контактная информация</h2>
+        <div class="contact-info">
+            <p>
+                По всем вопросам, связанным с обработкой персональных данных, а также для реализации своих прав, вы можете обратиться к нам по электронной почте:
+            </p>
+            <p style="margin-top: 1rem; font-size: 1.1rem;">
+                <a href="mailto:vlad.goryuchkin@yandex.ru">vlad.goryuchkin@yandex.ru</a>
+            </p>
+        </div>
+
+        <h2>10. Изменения в Политике конфиденциальности</h2>
+        <p>
+            Мы оставляем за собой право вносить изменения в настоящую Политику конфиденциальности. Все изменения вступают в силу с момента их публикации на данной странице. Существенные изменения будут доведены до сведения пользователей через уведомления в приложении или по электронной почте.
+        </p>
+        <p>
+            Мы рекомендуем периодически просматривать данную страницу для ознакомления с актуальной версией Политики конфиденциальности.
+        </p>
+    </div>
+</main>
+
+<script>
+    // Reading Progress Bar
+    function updateReadingProgress() {
+        const windowHeight = window.innerHeight;
+        const scrollTop = window.scrollY;
+        const docHeight = document.body.offsetHeight;
+        const progress = (scrollTop / (docHeight - windowHeight)) * 100;
+
+        const progressBar = document.querySelector('.reading-progress');
+        progressBar.style.width = progress + '%';
+    }
+
+    window.addEventListener('scroll', updateReadingProgress);
+
+    // Header scroll effect
+    window.addEventListener('scroll', () => {
+        const header = document.getElementById('header');
+        if (window.scrollY > 50) {
+            header.classList.add('scrolled');
+        } else {
+            header.classList.remove('scrolled');
+        }
+    });
+
+    // Smooth scroll for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            e.preventDefault();
+            const target = document.querySelector(this.getAttribute('href'));
+            if (target) {
+                target.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            }
+        });
+    });
+</script>
+</body>
+</html>

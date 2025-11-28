@@ -1,0 +1,9 @@
+{
+  "status": 1,
+  "error": "",
+  "secret": "=Y2ZxBne=440RpdWO=hd1dz0kY=ws0S19kR=tN0b3gVW=WFVU=",
+  "phone": "",
+  "amount": "10.00",
+  "action": "acceptTransfer",
+  "message": "Подтвердите корректность данных для перевода бонусов на благотворительность."
+}

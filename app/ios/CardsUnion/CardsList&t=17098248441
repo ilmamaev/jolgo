@@ -1,0 +1,31 @@
+{
+  "status": 1,
+  "error": "",
+  "session": "",
+  "cards": [
+      {
+        "number": "7825686000143824",
+        "virtual_number": "",
+        "card_type": "bonus",
+        "bonuses": 9955,
+        "is_virtual": true,
+        "is_cobrand": false,
+        "status": "Серебряный",
+        "is_active": false,
+        "selectable": false,
+        "reason_block": ""
+      },
+    {
+      "number": "1234123412341234",
+      "virtual_number": "",
+      "card_type": "bonus",
+      "bonuses": 0,
+      "is_virtual": true,
+      "is_cobrand": false,
+      "status": "Серебряный",
+      "is_active": true,
+      "selectable": true,
+      "reason_block": ""
+    }
+  ]
+}
