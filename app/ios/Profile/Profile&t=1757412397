@@ -168,9 +168,9 @@
         "banners": [
         {
             "title": "Пример",
-            "image": "https://pravzap.ru/app/src/banner.png",
+            "image": "https://jolgo.ru/app/src/banner.png",
             "image_ratio": 3.72826087,
-            "url": "https://pravzap.ru",
+            "url": "https://jolgo.ru",
             "partner_id": "",
             "sort": 1,
             "slug": "primer"

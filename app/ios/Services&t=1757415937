@@ -1,0 +1,52 @@
+[
+  {
+    "ID": "17813325",
+    "NAME": "Магазин",
+    "TYPE": [
+      "gasstation"
+    ],
+    "PRIORITY": "350",
+    "A_ICO144": "https://jolgo.ru/app/src/services/6519d3e5301ce7140e70c25cbd601ac0.png",
+    "DETAIL_PICTURE": "/upload/iblock/a29/a2936dd91bcf5fbc19028817731e4599.png"
+  },
+  {
+    "ID": "17813337",
+    "NAME": "Ручная мойка",
+    "TYPE": [
+      "gasstation"
+    ],
+    "PRIORITY": "450",
+    "A_ICO144": "https://jolgo.ru/app/src/services/3b0aaa5ce8e4c53ad6f9ec7f8111d81d.png",
+    "DETAIL_PICTURE": "/upload/iblock/2d9/2d917229d7f8aea9c76967be8b5ea764.png"
+  },
+  {
+    "ID": "17813328",
+    "NAME": "Подкачка шин",
+    "TYPE": [
+      "gasstation"
+    ],
+    "PRIORITY": "500",
+    "A_ICO144": "https://jolgo.ru/app/src/services/60e085b0a7c3e0e9d212bde5fab4f27f.png",
+    "DETAIL_PICTURE": "/upload/iblock/33e/33ea16da17b99be9dfd6af80e5c273eb.png"
+  },
+  {
+    "ID": "17813330",
+    "NAME": "Пылесос",
+    "TYPE": [
+      "gasstation"
+    ],
+    "PRIORITY": "500",
+    "A_ICO144": "https://jolgo.ru/app/src/services/016d9834498aee9a22a2dcf76278e199.png",
+    "DETAIL_PICTURE": "/upload/iblock/dfa/dfa7da79cc39da3ac34c50e6086e8cc8.png"
+  },
+  {
+    "ID": "17813983",
+    "NAME": "Шиномонтаж",
+    "TYPE": [
+      "gasstation"
+    ],
+    "PRIORITY": "500",
+    "A_ICO144": "https://jolgo.ru/app/src/services/89c56a4268fb6f6d917a24d7e02e8587.png",
+    "DETAIL_PICTURE": "/upload/iblock/d57/d570a803ad1119b3039a4487166376b1.png"
+  }
+]

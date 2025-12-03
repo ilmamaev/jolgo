@@ -1,0 +1,79 @@
+[
+  {
+    "ID": "14606701",
+    "NAME": "G-100",
+    "ICON": "Оранжевая",
+    "COLOR": "eb780b",
+    "PRIORITY": "10"
+  },
+  {
+    "ID": "128815",
+    "NAME": "G-98",
+    "ICON": "Оранжевая",
+    "COLOR": "eb780b",
+    "PRIORITY": "20"
+  },
+  {
+    "ID": "175",
+    "NAME": "G-95",
+    "ICON": "Оранжевая",
+    "COLOR": "f0b00b",
+    "PRIORITY": "30"
+  },
+  {
+    "ID": "176",
+    "NAME": "95",
+    "ICON": "Красная",
+    "COLOR": "f5292d",
+    "PRIORITY": "40"
+  },
+  {
+    "ID": "177",
+    "NAME": "92",
+    "ICON": "Желтая",
+    "COLOR": "efae09",
+    "PRIORITY": "60"
+  },
+  {
+    "ID": "180",
+    "NAME": "ГАЗ",
+    "ICON": "Синяя",
+    "COLOR": "009dde",
+    "PRIORITY": "80"
+  },
+  {
+    "ID": "3410",
+    "NAME": "КПГ",
+    "ICON": "Синяя",
+    "COLOR": "009dde",
+    "PRIORITY": "90"
+  },
+  {
+    "ID": "179",
+    "NAME": "ДТ",
+    "ICON": "Серая",
+    "COLOR": "6f6f6f",
+    "PRIORITY": "100"
+  },
+  {
+    "ID": "174",
+    "NAME": "98",
+    "ICON": "Зеленая",
+    "COLOR": "4baf00",
+    "PRIORITY": "200"
+  },
+  {
+    "ID": "2423224",
+    "NAME": "G-92",
+    "ICON": "Желтая",
+    "COLOR": "f0b00b",
+    "PRIORITY": "210"
+  },
+  {
+    "ID": "3240",
+    "NAME": "G-ДТ",
+    "ICON": "Темно-серая",
+    "COLOR": "3d3d3d",
+    "PRIORITY": "230"
+  }
+]
