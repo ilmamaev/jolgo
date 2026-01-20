@@ -63,7 +63,7 @@
       "main": {
         "avatar": "",
         "name": "",
-        "phone": "79313754032",
+        "phone": "996000000000",
         "phone_id": "j99p7JEa2yZtJJcy4HrryA==",
         "birth_date": "16.01",
         "is_birth_date_editable": true,
@@ -168,7 +168,7 @@
   "enable_lk_scanner": true,
   "enable_lk_coffee_scanner": true,
   "enable_logout": true,
-  "enable_cashier_check_to_email": true,
+  "enable_cashier_check_to_email": false,
   "enable_qr_sbp": true,
   "online_stiu_warning": "Скидки и акции не применяются (кроме акций с начислением дополнительных бонусов). Для скидки и участия в акции обратитесь на кассу."
 }
