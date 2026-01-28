@@ -3,962 +3,453 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Правила заправки</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        :root {
-            /* Светлая тема по умолчанию */
-            --bg: #f3fbff;
-            --bg-blue: #0f9fe2;
-            --bg-dark: #0f3b5a;
-            --text-primary: #0f3b5a;
-            --text-secondary: #8a9ba7;
-            --hold: #cbd2d5;
-            --separator: #d6e0e4;
-            --blue-light: #e0f5ff;
-            --card-bg: #ffffff;
-            --accent: #0f9fe2;
-            --shadow: rgba(15, 59, 90, 0.1);
-        }
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
-            line-height: 1.6;
-            color: var(--text-primary);
-            overflow-x: hidden;
-            background: var(--bg);
-            transition: background-color 0.3s ease, color 0.3s ease;
-        }
-
-        /* Навигация */
-        nav {
-            position: fixed;
-            top: 0;
-            width: 100%;
-            background: rgba(255, 255, 255, 0.95);
-            backdrop-filter: blur(10px);
-            z-index: 1000;
-            padding: 1rem 0;
-            transition: all 0.3s ease;
-            border-bottom: 1px solid var(--separator);
-        }
-
-        nav.scrolled {
-            padding: 1rem 0;
-            box-shadow: 0 5px 30px var(--shadow);
-        }
-
-        .nav-container {
-            max-width: 1400px;
-            margin: 0 auto;
-            padding: 0 2rem;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .logo {
-            font-size: 1.5rem;
-            font-weight: 700;
-            color: var(--accent);
-            letter-spacing: -0.5px;
-            text-transform: uppercase;
-        }
-
-        .logo img {
-            width: 28px;
-            height: 28px;
-        }
-
-        .nav-links {
-            display: flex;
-            gap: 3rem;
-            list-style: none;
-        }
-
-        .nav-links a {
-            color: var(--text-primary);
-            text-decoration: none;
-            font-weight: 500;
-            transition: color 0.3s ease;
-            font-size: 0.95rem;
-        }
-
-        .nav-links a:hover {
-            color: var(--accent);
-        }
-
-        .nav-actions {
-            display: flex;
-            align-items: center;
-            gap: 1.5rem;
-        }
-
-        .theme-toggle {
-            background: var(--hold);
-            border: none;
-            width: 50px;
-            height: 26px;
-            border-radius: 50px;
-            position: relative;
-            cursor: pointer;
-            display: flex;
-            align-items: center;
-            padding: 0 3px;
-            transition: background 0.3s ease;
-        }
-
-        .theme-toggle::before {
-            content: '';
-            position: absolute;
-            width: 20px;
-            height: 20px;
-            border-radius: 50%;
-            background: var(--card-bg);
-            transition: transform 0.3s ease;
-        }
-
-        .cta-button {
-            background: var(--accent);
-            color: white;
-            padding: 0.8rem 2rem;
-            border-radius: 50px;
-            text-decoration: none;
-            font-weight: 600;
-            transition: all 0.3s ease;
-            border: none;
-            cursor: pointer;
-            font-size: 0.95rem;
-        }
-
-        .cta-button:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 10px 30px rgba(15, 159, 226, 0.3);
-        }
-
-        /* Hero Section */
-        .hero {
-            min-height: 100vh;
-            display: flex;
-            align-items: center;
-            position: relative;
-            overflow: hidden;
-            padding-top: 80px;
-            background: linear-gradient(
-                    to bottom,
-                    rgba(248, 249, 250, 0.7) 0%,
-                    rgba(248, 249, 250, 1) 100%
-            ), url('./img/background.jpg') center/cover;
-        }
-
-        .hero::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="%23ffffff" fill-opacity="0.05" d="M0,96L48,112C96,128,192,160,288,160C384,160,480,128,576,122.7C672,117,768,139,864,154.7C960,171,1056,181,1152,165.3C1248,149,1344,107,1392,85.3L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>');
-            background-size: cover;
-            opacity: 0.5;
-        }
-
-        .hero-content {
-            max-width: 1400px;
-            margin: 0 auto;
-            padding: 0 2rem;
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 4rem;
-            align-items: center;
-            position: relative;
-            z-index: 1;
-        }
-
-        .hero-text h1 {
-            font-size: 4rem;
-            font-weight: 800;
-            color: var(--text-primary);
-            line-height: 1.1;
-            margin-bottom: 1.5rem;
-            letter-spacing: -2px;
-        }
-
-        .hero-text .highlight {
-            background: linear-gradient(135deg, var(--accent), var(--bg-blue));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
-
-        .hero-text p {
-            font-size: 1.25rem;
-            color: var(--text-primary);
-            margin-bottom: 2.5rem;
-            line-height: 1.8;
-            opacity: 0.9;
-        }
-
-        .hero-buttons {
-            display: flex;
-            gap: 1.5rem;
-            flex-wrap: wrap;
-        }
-
-        .btn-primary {
-            background: var(--accent);
-            color: white;
-            padding: 1rem 2.5rem;
-            border-radius: 50px;
-            text-decoration: none;
-            font-weight: 600;
-            transition: all 0.3s ease;
-            font-size: 1.05rem;
-            display: inline-block;
-        }
-
-        .btn-primary:hover, .btn-secondary:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 15px 40px rgba(15, 159, 226, 0.4);
-        }
-
-        .btn-secondary {
-            background: transparent;
-            color: var(--accent);
-            padding: 1rem 2.5rem;
-            border-radius: 50px;
-            text-decoration: none;
-            font-weight: 600;
-            border: 2px solid var(--accent);
-            backdrop-filter: blur(10px);
-            transition: all 0.3s ease;
-            font-size: 1.05rem;
-            display: inline-block;
-        }
-
-        .btn-secondary:hover {
-            background: rgba(255, 255, 255, 0.1);
-            border-color: var(--accent);
-            transform: translateY(-3px);
-        }
-
-        .hero-image {
-            position: relative;
-            animation: float 6s ease-in-out infinite;
-            display: flex;
-            justify-content: end;
-        }
-
-        .hero-image img {
-            max-width: 350px;
-            filter: drop-shadow(0 30px 60px rgba(0, 0, 0, 0.5));
-        }
-
-        @keyframes float {
-            0%, 100% {
-                transform: translateY(0px);
-            }
-            50% {
-                transform: translateY(-20px);
-            }
-        }
-
-        /* Features Section */
-        .features {
-            padding: 8rem 2rem;
-            background: var(--bg);
-            position: relative;
-        }
-
-        .section-header {
-            text-align: center;
-            margin-bottom: 5rem;
-        }
-
-        .section-header h2 {
-            font-size: 3rem;
-            font-weight: 800;
-            color: var(--text-primary);
-            margin-bottom: 1rem;
-            letter-spacing: -1px;
-        }
-
-        .section-header p {
-            font-size: 1.2rem;
-            color: var(--text-secondary);
-            max-width: 600px;
-            margin: 0 auto;
-        }
-
-        .features-grid {
-            max-width: 1400px;
-            margin: 0 auto;
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-            gap: 2.5rem;
-        }
-
-        .feature-card {
-            background: var(--card-bg);
-            padding: 3rem;
-            border-radius: 20px;
-            box-shadow: 0 10px 40px var(--shadow);
-            transition: all 0.3s ease;
-            position: relative;
-            overflow: hidden;
-            border: 1px solid var(--separator);
-        }
-
-        .feature-card::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 5px;
-            background: linear-gradient(135deg, var(--accent), var(--bg-dark));
-            transform: scaleX(0);
-            transition: transform 0.3s ease;
-        }
-
-        .feature-card:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 20px 60px var(--shadow);
-        }
-
-        .feature-card:hover::before {
-            transform: scaleX(1);
-        }
-
-        .feature-icon {
-            width: 70px;
-            height: 70px;
-            background: linear-gradient(135deg, var(--accent), var(--bg-blue));
-            border-radius: 15px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-bottom: 1.5rem;
-            font-size: 2rem;
-            color: white;
-        }
-
-        .feature-card h3 {
-            font-size: 1.5rem;
-            color: var(--text-primary);
-            margin-bottom: 1rem;
-            font-weight: 700;
-        }
-
-        .feature-card p {
-            color: var(--text-secondary);
-            line-height: 1.8;
-        }
-
-        /* Steps Section */
-        .steps {
-            padding: 8rem 2rem;
-            background: linear-gradient(135deg, var(--accent), var(--bg-dark));
-            position: relative;
-        }
-
-        .steps-container {
-            max-width: 1400px;
-            margin: 0 auto;
-        }
-
-        .steps-header h2 {
-            font-size: 3rem;
-            font-weight: 800;
-            color: white;
-            margin-bottom: 1rem;
-            text-align: center;
-            letter-spacing: -1px;
-        }
-
-        .steps-header p {
-            font-size: 1.2rem;
-            color: white;
-            opacity: 0.8;
-            text-align: center;
-            margin-bottom: 5rem;
-        }
-
-        .steps-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 3rem;
-        }
-
-        .step-card {
-            background: rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            padding: 3rem;
-            border-radius: 20px;
-            transition: all 0.3s ease;
-            position: relative;
-        }
-
-        .step-card:hover {
-            background: rgba(255, 255, 255, 0.15);
-            transform: translateY(-10px);
-        }
-
-        .step-number {
-            position: absolute;
-            top: -20px;
-            left: 30px;
-            width: 60px;
-            height: 60px;
-            background: var(--text-primary);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 1.5rem;
-            font-weight: 800;
-            color: white;
-            box-shadow: 0 10px 30px rgba(15, 159, 226, 0.3);
-        }
-
-        .step-card h3 {
-            color: white;
-            font-size: 1.5rem;
-            margin-bottom: 1rem;
-            margin-top: 1rem;
-            font-weight: 700;
-        }
-
-        .step-card p {
-            color: white;
-            opacity: 0.8;
-            line-height: 1.8;
-        }
-
-        /* Benefits Section */
-        .benefits {
-            padding: 8rem 2rem;
-            background: var(--bg);
-        }
-
-        .benefits-wrapper {
-            max-width: 1400px;
-            margin: 0 auto;
-        }
-
-        .benefits-staggered {
-            display: flex;
-            flex-direction: column;
-            gap: 3rem;
-        }
-
-        .benefit-card {
-            display: flex;
-            gap: 2rem;
-            padding: 2.5rem;
-            background: var(--card-bg);
-            border: 1px solid var(--separator);
-            border-radius: 20px;
-            transition: all 0.3s ease;
-            align-items: center;
-        }
-
-        .benefit-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 20px 60px rgba(15, 159, 226, 0.15);
-            border-color: var(--bg-blue);
-        }
-
-        .benefit-left {
-            width: 66.666%;
-            margin-right: auto;
-        }
-
-        .benefit-right {
-            width: 66.666%;
-            margin-left: auto;
-        }
-
-        .benefit-icon {
-            width: 50px;
-            height: 50px;
-            background: var(--bg-blue);
-            border-radius: 10px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-shrink: 0;
-            font-size: 1.5rem;
-            color: white;
-        }
-
-        .benefit-text h4 {
-            color: var(--text-primary);
-            font-size: 1.25rem;
-            margin-bottom: 0.5rem;
-            font-weight: 700;
-        }
-
-        .benefit-text p {
-            color: var(--text-secondary);
-            line-height: 1.6;
-        }
-
-        /* CTA Section */
-        .cta-section {
-            padding: 8rem 2rem;
-            background: linear-gradient(135deg, var(--accent), var(--bg-blue));
-            text-align: center;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .cta-section::before {
-            content: '';
-            position: absolute;
-            top: -50%;
-            right: -50%;
-            width: 100%;
-            height: 100%;
-            background: radial-gradient(circle, rgba(15, 159, 226, 0.1) 0%, transparent 70%);
-        }
-
-        .cta-content {
-            max-width: 800px;
-            margin: 0 auto;
-            position: relative;
-            z-index: 1;
-        }
-
-        .cta-content h2 {
-            font-size: 3.5rem;
-            font-weight: 800;
-            color: white;
-            margin-bottom: 1.5rem;
-            letter-spacing: -1px;
-        }
-
-        .cta-content p {
-            font-size: 1.3rem;
-            color: white;
-            margin-bottom: 3rem;
-            opacity: 0.9;
-        }
-
-        /* Footer */
-        footer {
-            background: var(--card-bg);
-            padding: 4rem 2rem 2rem;
-            color: var(--text-primary);
-            border-top: 1px solid var(--separator);
-        }
-
-        .footer-container {
-            max-width: 1400px;
-            margin: 0 auto;
-            display: grid;
-            grid-template-columns: 2fr 1fr 1fr 1fr;
-            gap: 3rem;
-            margin-bottom: 3rem;
-        }
-
-        .footer-about h3 {
-            color: var(--accent);
-            font-size: 1.5rem;
-            margin-bottom: 1rem;
-            font-weight: 700;
-        }
-
-        .footer-about p {
-            color: var(--text-secondary);
-            line-height: 1.8;
-        }
-
-        .footer-links h4 {
-            color: var(--text-primary);
-            margin-bottom: 1.5rem;
-            font-weight: 600;
-        }
-
-        .footer-links ul {
-            list-style: none;
-        }
-
-        .footer-links a {
-            color: var(--text-secondary);
-            text-decoration: none;
-            transition: all 0.3s ease;
-            display: block;
-            margin-bottom: 0.8rem;
-        }
-
-        .footer-links a:hover {
-            color: var(--accent);
-            padding-left: 5px;
-        }
-
-        .footer-bottom {
-            text-align: center;
-            padding-top: 2rem;
-            border-top: 1px solid var(--separator);
-            color: var(--text-secondary);
-        }
-
-        /* Responsive */
-        @media (max-width: 1024px) {
-            .hero-content {
-                grid-template-columns: 1fr;
-                text-align: center;
-            }
-
-            .hero-image {
-                display: flex;
-                justify-content: center;
-            }
-
-            .hero-text h1 {
-                font-size: 3rem;
-            }
-
-            .hero-buttons {
-                justify-content: center;
-            }
-
-            .footer-container {
-                grid-template-columns: 1fr 1fr;
-            }
-        }
-
-        @media (max-width: 768px) {
-            .nav-links {
-                display: none;
-            }
-
-            .hero-text h1 {
-                font-size: 2.5rem;
-            }
-
-            .hero-text p {
-                font-size: 1.1rem;
-            }
-
-            .section-header h2,
-            .steps-header h2,
-            .benefits-content h2,
-            .cta-content h2 {
-                font-size: 2rem;
-            }
-
-            .features-grid,
-            .steps-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .footer-container {
-                grid-template-columns: 1fr;
-            }
-
-            .btn-primary,
-            .btn-secondary {
-                width: 100%;
-                text-align: center;
-            }
-        }
-
-        /* Scroll animations */
-        .fade-in {
-            opacity: 0;
-            transform: translateY(30px);
-            transition: all 0.6s ease;
-        }
-
-        .fade-in.visible {
-            opacity: 1;
-            transform: translateY(0);
-        }
-
-        /* Добавить/обновить в секции Footer */
-        .footer-logo {
-            display: flex;
-            align-items: center;
-            gap: 0.75rem;
-            margin-bottom: 1rem;
-        }
-
-        .footer-logo img {
-            width: 32px;
-            height: 32px;
-            border-radius: 8px;
-        }
-
-        .footer-logo span {
-            font-size: 1.5rem;
-            font-weight: 700;
-            color: var(--bg-blue);
-        }
-
-        .footer-container {
-            max-width: 1400px;
-            margin: 0 auto;
-            display: grid;
-            grid-template-columns: 2fr 1fr 1fr;
-            gap: 3rem;
-            margin-bottom: 3rem;
-        }
-
-        @media (max-width: 768px) {
-            .footer-container {
-                grid-template-columns: 1fr;
-                text-align: center;
-            }
-
-            .footer-logo {
-                justify-content: center;
-            }
-        }
-
-        .scale {
-            cursor: pointer;
-            transition: 1s; /* Время эффекта */
-        }
-        .scale:hover {
-            transform: scale(1.1); /* Увеличиваем масштаб */
-        }
-    </style>
+    <meta name="description" content="JOLGO - умная программа лояльности для автомобилистов. Экономьте на топливе и получайте эксклюзивные бонусы">
+    <title>JOLGO - Умная экономия на каждой поездке</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<!-- Navigation -->
-<nav id="navbar">
+
+<!-- Навигация -->
+<nav id="navbar" class="navbar">
     <div class="nav-container">
         <div class="logo">
-            <img src="./img/logo.png" alt="Logo">
-            Правила заправки
+            <img src="./img/logo.png" alt="logo" />
+            <span class="logo-text">JOLGO</span>
         </div>
+
         <ul class="nav-links">
             <li><a href="#features">Возможности</a></li>
-            <li><a href="#steps">Как начать</a></li>
+            <li><a href="#how-it-works">Как работает</a></li>
             <li><a href="#benefits">Преимущества</a></li>
         </ul>
+
         <div class="nav-actions">
-            <a href="#cta" class="cta-button">Начать сейчас</a>
+            <a href="#download" class="btn-download desktop">Скачать&nbsp;приложение</a>
+            <a href="#download" class="btn-download phone">Скачать</a>
         </div>
+
+        <!-- Mobile Menu Toggle -->
+        <button class="mobile-menu-toggle" aria-label="Меню">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
     </div>
 </nav>
 
 <!-- Hero Section -->
 <section class="hero">
+    <div class="hero-background">
+        <div class="gradient-orb orb-1"></div>
+        <div class="gradient-orb orb-2"></div>
+        <div class="grid-pattern"></div>
+    </div>
+
     <div class="hero-content">
         <div class="hero-text">
-            <h1>
-                Управляйте своим <span class="highlight">автомобилем</span> на новом уровне
+            <h1 class="hero-title">
+                Экономьте на топливе
+                <span class="gradient-text">умно и просто</span>
             </h1>
-            <p>
-                Современное решение для контроля расходов, оптимизации маршрутов и максимальной экономии на каждой поездке.
-            </p>
-            <div class="hero-buttons">
 
-                <a href="https://apps.apple.com/ru/app/id6754984915">
-                    <img src="./img/store.svg" alt="" class="scale">
+            <div class="badge">
+                <span class="badge-icon">✨</span>
+                Новое поколение программ лояльности
+            </div>
+
+            <p class="hero-description">
+                JOLGO — это персональный финансовый помощник для автомобилистов.
+                Копите бонусы, получайте эксклюзивные предложения и контролируйте расходы
+                на топливо в одном приложении.
+            </p>
+
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <div class="stat-number">5К+</div>
+                    <div class="stat-label">Активных пользователей</div>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <div class="stat-number">15%</div>
+                    <div class="stat-label">Средняя экономия</div>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <div class="stat-number">500+</div>
+                    <div class="stat-label">Партнёрских АЗС</div>
+                </div>
+            </div>
+
+            <div class="hero-buttons">
+                <a href="#download" class="btn-primary">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M10 13L6 9H9V3H11V9H14L10 13Z" fill="currentColor"/>
+                        <path d="M3 15H17V17H3V15Z" fill="currentColor"/>
+                    </svg>
+                    Скачать приложение
+                </a>
+                <a href="#features" class="btn-secondary">
+                    Узнать больше
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M7 10L10 13L13 10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
                 </a>
             </div>
         </div>
-        <div class="hero-image">
-            <img src="./img/card.png" alt="card-image"/>
+
+        <div class="hero-visual">
+            <div class="card-mockup">
+                <div class="card-frame">
+                    <img src="./img/card.png" alt="jolgo app">
+                    <div class="phone-notch"></div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
 
 <!-- Features Section -->
-<section class="features" id="features">
-    <div class="section-header fade-in">
-        <h2>Всё необходимое в одном приложении</h2>
-        <p>Мощные инструменты для эффективного управления вашим автомобилем</p>
-    </div>
-    <div class="features-grid">
-        <div class="feature-card fade-in">
-            <div class="feature-icon">💳</div>
-            <h3>Виртуальная карта</h3>
-            <p>Мгновенный выпуск цифровой карты лояльности с доступом ко всем преимуществам программы прямо в вашем смартфоне.</p>
+<section id="features" class="features">
+    <div class="section-container">
+        <div class="section-header">
+            <span class="section-badge">Возможности</span>
+            <h2 class="section-title">Всё необходимое в одном приложении</h2>
+            <p class="section-subtitle">
+                Управляйте финансами, накапливайте бонусы и получайте персональные предложения
+            </p>
         </div>
-        <div class="feature-card fade-in">
-            <div class="feature-icon">⚡</div>
-            <h3>Персональные акции</h3>
-            <p>Эксклюзивные предложения и скидки, подобранные специально для вас на основе ваших предпочтений.</p>
-        </div>
-        <div class="feature-card fade-in">
-            <div class="feature-icon">📊</div>
-            <h3>Аналитика расходов</h3>
-            <p>Детальная статистика по всем операциям с удобными графиками и отчётами для контроля бюджета.</p>
-        </div>
-        <div class="feature-card fade-in">
-            <div class="feature-icon">🔒</div>
-            <h3>Защита данных</h3>
-            <p>Современные технологии шифрования и многоуровневая система безопасности для защиты вашей информации.</p>
+
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon-wrapper">
+                    <div class="feature-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none">
+                            <rect x="3" y="5" width="18" height="14" rx="2" stroke="currentColor" stroke-width="2"/>
+                            <path d="M3 10H21" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="7" cy="15" r="1" fill="currentColor"/>
+                        </svg>
+                    </div>
+                </div>
+                <h3 class="feature-title">Виртуальная карта</h3>
+                <p class="feature-description">
+                    Мгновенный выпуск цифровой карты лояльности с доступом ко всем
+                    преимуществам программы прямо в вашем смартфоне
+                </p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon-wrapper">
+                    <div class="feature-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none">
+                            <path d="M13 2L3 14H12L11 22L21 10H12L13 2Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                </div>
+                <h3 class="feature-title">Мгновенные бонусы</h3>
+                <p class="feature-description">
+                    Автоматическое начисление бонусов после каждой покупки без
+                    необходимости предъявления физической карты
+                </p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon-wrapper">
+                    <div class="feature-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none">
+                            <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                </div>
+                <h3 class="feature-title">Персональные акции</h3>
+                <p class="feature-description">
+                    Эксклюзивные предложения и специальные скидки, подобранные
+                    индивидуально на основе ваших предпочтений
+                </p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon-wrapper">
+                    <div class="feature-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none">
+                            <path d="M3 3V21H21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M7 14L11 10L15 14L20 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                </div>
+                <h3 class="feature-title">Умная аналитика</h3>
+                <p class="feature-description">
+                    Детальная статистика расходов на топливо с интерактивными
+                    графиками и рекомендациями по оптимизации бюджета
+                </p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon-wrapper">
+                    <div class="feature-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none">
+                            <path d="M12 2C9.243 2 7 4.243 7 7C7 9.757 9.243 12 12 12C14.757 12 17 9.757 17 7C17 4.243 14.757 2 12 2Z" stroke="currentColor" stroke-width="2"/>
+                            <path d="M12 14C7.589 14 4 17.589 4 22H20C20 17.589 16.411 14 12 14Z" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                </div>
+                <h3 class="feature-title">История операций</h3>
+                <p class="feature-description">
+                    Полный контроль над всеми транзакциями с возможностью экспорта
+                    отчётов для бухгалтерии или личного учёта
+                </p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon-wrapper">
+                    <div class="feature-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none">
+                            <rect x="3" y="11" width="18" height="11" rx="2" stroke="currentColor" stroke-width="2"/>
+                            <path d="M7 11V7C7 4.791 8.791 3 11 3H13C15.209 3 17 4.791 17 7V11" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="12" cy="16" r="1" fill="currentColor"/>
+                        </svg>
+                    </div>
+                </div>
+                <h3 class="feature-title">Защита данных</h3>
+                <p class="feature-description">
+                    Банковский уровень шифрования и многофакторная аутентификация
+                    для максимальной безопасности ваших данных
+                </p>
+            </div>
         </div>
     </div>
 </section>
 
-<!-- Steps Section -->
-<section class="steps" id="steps">
-    <div class="steps-container">
-        <div class="steps-header fade-in">
-            <h2>Начните в три простых шага</h2>
-            <p>Присоединиться к программе проще, чем кажется</p>
+<!-- How It Works Section -->
+<section id="how-it-works" class="how-it-works">
+    <div class="section-container">
+        <div class="section-header">
+            <span class="section-badge">Как работает</span>
+            <h2 class="section-title">Начните экономить <span class="gradient-text">за 3 шага</span></h2>
+            <p class="section-subtitle">
+                От установки до первой экономии — всего несколько минут
+            </p>
         </div>
-        <div class="steps-grid">
-            <div class="step-card fade-in">
-                <div class="step-number">1</div>
-                <h3>Скачайте приложение</h3>
-                <p>Установите наше приложение из App Store. Это займёт не более минуты.</p>
+
+        <div class="steps-timeline">
+            <div class="step-item">
+                <div class="step-number">01</div>
+                <div class="step-content">
+                    <div class="step-icon-container">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+                            <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                            <path d="M2 17L12 22L22 17" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                            <path d="M2 12L12 17L22 12" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="step-title">Скачайте приложение</h3>
+                    <p class="step-description">
+                        Установите jolgo из App Store или Google Play.
+                        Процесс займёт не более 30 секунд
+                    </p>
+                </div>
+                <div class="step-connector"></div>
             </div>
-            <div class="step-card fade-in">
-                <div class="step-number">2</div>
-                <h3>Пройдите регистрацию</h3>
-                <p>Получите виртуальную карту лояльности моментально.</p>
+
+            <div class="step-item">
+                <div class="step-number">02</div>
+                <div class="step-content">
+                    <div class="step-icon-container">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+                            <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                            <path d="M12 6V12L16 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="step-title">Быстрая регистрация</h3>
+                    <p class="step-description">
+                        Создайте аккаунт и получите виртуальную карту лояльности
+                        моментально. Никаких документов и ожиданий
+                    </p>
+                </div>
+                <div class="step-connector"></div>
             </div>
-            <div class="step-card fade-in">
-                <div class="step-number">3</div>
-                <h3>Начните экономить</h3>
-                <p>Используйте карту при каждой покупке и накапливайте бонусы для выгодных приобретений.</p>
+
+            <div class="step-item">
+                <div class="step-number">03</div>
+                <div class="step-content">
+                    <div class="step-icon-container">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+                            <path d="M20 12V22H4V12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M22 7H2V12H22V7Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                            <path d="M12 22V7" stroke="currentColor" stroke-width="2"/>
+                            <path d="M12 7H17L12 2L7 7H12Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="step-title">Начните экономить</h3>
+                    <p class="step-description">
+                        Заправляйтесь на партнёрских АЗС, копите бонусы автоматически
+                        и обменивайте их на топливо или скидки
+                    </p>
+                </div>
             </div>
         </div>
     </div>
 </section>
 
 <!-- Benefits Section -->
-<section class="benefits" id="benefits">
-    <div class="benefits-wrapper">
-        <div class="section-header fade-in">
-            <h2>Почему выбирают нас</h2>
-            <p>Преимущества, которые делают нас лучшими</p>
+<section id="benefits" class="benefits">
+    <div class="section-container">
+        <div class="section-header">
+            <span class="section-badge">Преимущества</span>
+            <h2 class="section-title">Почему выбирают <span class="gradient-text">JOLGO</span></h2>
+            <p class="section-subtitle">
+                Реальные преимущества для каждого автомобилиста
+            </p>
         </div>
 
-        <div class="benefits-staggered">
-            <div class="benefit-card benefit-left fade-in">
-                <div class="benefit-icon">💰</div>
-                <div class="benefit-text">
-                    <h4>Реальная экономия</h4>
-                    <p>Средняя экономия наших пользователей составляет до 15% на топливе и автомобильных услугах ежемесячно.</p>
+        <div class="benefits-grid">
+            <div class="benefit-card benefit-large">
+                <div class="benefit-visual">
+                    <div class="benefit-number">15%</div>
+                    <div class="benefit-chart">
+                        <div class="chart-bar" style="height: 60%"></div>
+                        <div class="chart-bar" style="height: 80%"></div>
+                        <div class="chart-bar" style="height: 100%"></div>
+                    </div>
+                </div>
+                <div class="benefit-content">
+                    <h3 class="benefit-title">Реальная экономия</h3>
+                    <p class="benefit-description">
+                        Наши пользователи экономят в среднем до 15% на топливе и
+                        сопутствующих услугах ежемесячно. Это более 3000₽ в месяц
+                        для среднестатистического водителя
+                    </p>
+                    <ul class="benefit-list">
+                        <li>Кэшбек до 5% на каждую заправку</li>
+                        <li>Дополнительные скидки от партнёров</li>
+                        <li>Специальные акции для постоянных клиентов</li>
+                    </ul>
                 </div>
             </div>
 
-            <div class="benefit-card benefit-right fade-in">
-                <div class="benefit-icon">⏱️</div>
-                <div class="benefit-text">
-                    <h4>Экономия времени</h4>
-                    <p>Находите лучшие предложения поблизости за секунды, планируйте маршруты с учётом оптимальных остановок.</p>
-                </div>
+            <div class="benefit-card">
+                <div class="benefit-icon-lg">⚡</div>
+                <h3 class="benefit-title">Мгновенные операции</h3>
+                <p class="benefit-description">
+                    Бонусы начисляются автоматически в течение нескольких секунд
+                    после заправки. Не нужно ждать обработки
+                </p>
             </div>
 
-            <div class="benefit-card benefit-left fade-in">
-                <div class="benefit-icon">🏆</div>
-                <div class="benefit-text">
-                    <h4>Премиум партнёры</h4>
-                    <p>Более 5000 проверенных партнёров по всей стране с гарантированным качеством обслуживания.</p>
-                </div>
+            <div class="benefit-card">
+                <div class="benefit-icon-lg">🎯</div>
+                <h3 class="benefit-title">Умные рекомендации</h3>
+                <p class="benefit-description">
+                    Персонализированные советы по оптимизации расходов на основе
+                    анализа ваших привычек и маршрутов
+                </p>
             </div>
 
-            <div class="benefit-card benefit-right fade-in">
-                <div class="benefit-icon">📱</div>
-                <div class="benefit-text">
-                    <h4>Простота использования</h4>
-                    <p>Интуитивно понятный интерфейс, который не требует обучения. Всё необходимое всегда под рукой.</p>
-                </div>
+            <div class="benefit-card">
+                <div class="benefit-icon-lg">🏆</div>
+                <h3 class="benefit-title">500+ партнёров</h3>
+                <p class="benefit-description">
+                    Сеть проверенных АЗС по всей стране с гарантированным качеством
+                    обслуживания и топлива
+                </p>
+            </div>
+
+            <div class="benefit-card">
+                <div class="benefit-icon-lg">📱</div>
+                <h3 class="benefit-title">Удобный интерфейс</h3>
+                <p class="benefit-description">
+                    Интуитивно понятное приложение, которое не требует обучения.
+                    Всё необходимое всегда под рукой
+                </p>
             </div>
         </div>
     </div>
 </section>
 
-<!-- CTA Section -->
-<section class="cta-section" id="cta">
-    <div class="cta-content fade-in">
-        <h2>Готовы начать экономить?</h2>
-        <p>Присоединяйтесь к тысячам водителей, которые уже оценили преимущества нашей программы</p>
+<!-- Download CTA Section -->
+<section id="download" class="download-cta">
+    <div class="download-container">
+        <div class="download-content">
+            <h2 class="download-title">Начните экономить уже сегодня</h2>
+            <p class="download-subtitle">
+                Присоединяйтесь к тысячам водителей, которые уже оценили преимущества JOLGO.
+            </p>
 
-        <a href="https://apps.apple.com/ru/app/id6754984915">
-            <img src="./img/store.svg" alt="" class="scale">
-        </a>
+            <div class="download-features">
+                <div class="feature-badge">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                        <path d="M8 0L10.1 5.9L16 8L10.1 10.1L8 16L5.9 10.1L0 8L5.9 5.9L8 0Z"/>
+                    </svg>
+                    Бесплатно
+                </div>
+                <div class="feature-badge">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                        <path d="M8 0L10.1 5.9L16 8L10.1 10.1L8 16L5.9 10.1L0 8L5.9 5.9L8 0Z"/>
+                    </svg>
+                    Без рекламы
+                </div>
+            </div>
+
+            <div class="download-buttons">
+                <a href="https://apps.apple.com/ru/app/id0000000000" class="store-button">
+                    <img src="./img/store.svg" alt="" class="scale">
+                </a>
+            </div>
+        </div>
     </div>
 </section>
 
-<footer>
+<!-- Footer -->
+<footer class="footer">
     <div class="footer-container">
-        <div class="footer-about">
-            <div class="footer-logo">
-                <img src="./img/logo.png" alt="Logo">
-                <span>Правила заправки</span>
+        <div class="footer-main">
+            <div class="footer-brand">
+                <div class="footer-logo">
+                    <img src="./img/logo.png" alt="logo" />
+                    <span>JOLGO</span>
+                </div>
+                <p class="footer-tagline">
+                    Умная программа лояльности для автомобилистов.
+                    Экономьте на топливе с каждой поездкой.
+                </p>
             </div>
-            <p>Программа лояльности для автомобилистов.<br/>Копите бонусы и экономьте на каждой поездке.</p>
+
+            <div class="footer-links-group">
+                <div class="footer-column">
+                    <h4 class="footer-heading">Продукт</h4>
+                    <ul class="footer-links">
+                        <li><a href="#features">Возможности</a></li>
+                        <li><a href="#how-it-works">Как работает</a></li>
+                        <li><a href="#benefits">Преимущества</a></li>
+                        <li><a href="#download">Скачать</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4 class="footer-heading">Юридическое</h4>
+                    <ul class="footer-links">
+                        <li><a href="./privacy.html">Политика&nbsp;конфиденциальности</a></li>
+                        <li><a href="mailto:ilmamaev@yandex.ru" title="Связаться с нами">ilmamaev@yandex.ru</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
-        <div class="footer-links">
-            <h4>Навигация</h4>
-            <ul>
-                <li><a href="#features">Возможности</a></li>
-                <li><a href="#steps">Как начать</a></li>
-                <li><a href="#benefits">Преимущества</a></li>
-            </ul>
+
+        <div class="footer-bottom">
+            <p class="footer-copyright">
+                © 2026 JOLGO. Все права защищены.
+            </p>
         </div>
-        <div class="footer-links">
-            <h4>Контакты</h4>
-            <ul>
-                <li><a href="./privacy.html">Политика конфиденциальности</a></li>
-                <li><a href="mailto:vlad.goryuchkin@yandex.ru">vlad.goryuchkin@yandex.ru</a></li>
-            </ul>
-        </div>
-    </div>
-    <div class="footer-bottom">
-        <p>&copy; 2025 Правила заправки. Все права защищены.</p>
     </div>
 </footer>
 
-<script>
-    // Navbar scroll effect
-    window.addEventListener('scroll', function() {
-        const navbar = document.getElementById('navbar');
-        if (window.scrollY > 50) {
-            navbar.classList.add('scrolled');
-        } else {
-            navbar.classList.remove('scrolled');
-        }
-    });
-
-    // Intersection Observer for fade-in animations
-    const observerOptions = {
-        threshold: 0.1,
-        rootMargin: '0px 0px -100px 0px'
-    };
-
-    const observer = new IntersectionObserver(function(entries) {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add('visible');
-            }
-        });
-    }, observerOptions);
-
-    document.querySelectorAll('.fade-in').forEach(el => {
-        observer.observe(el);
-    });
-
-    // Smooth scroll for anchor links
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function(e) {
-            e.preventDefault();
-            const target = document.querySelector(this.getAttribute('href'));
-            if (target) {
-                target.scrollIntoView({
-                    behavior: 'smooth',
-                    block: 'start'
-                });
-            }
-        });
-    });
-</script>
+<!-- Custom JS -->
+<script src="script.js"></script>
 </body>
 </html>
