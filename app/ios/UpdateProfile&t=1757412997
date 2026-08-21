@@ -127,21 +127,15 @@
     "buttons": [
       {
         "slug": "promocodes",
-        "title": "Промо­коды",
-        "icon": "promo-codes.pdf",
+        "title": "Мои промокоды",
+        "icon": "https://jolgo.ru/app/src/buttons/promo-codes.png",
         "url": "gpn://cabinet-screen/promocodes"
       },
       {
-        "slug": "orders_history",
-        "title": "История заказов",
-        "icon": "orders-history.pdf",
-        "url": "gpn://cabinet-screen/orders_history"
-      },
-      {
-        "slug": "charity",
-        "title": "Благотвори­тельность",
-        "icon": "charity.pdf",
-        "url": "gpn://cabinet-screen/charity"
+        "slug": "loyalty_program_rules",
+        "title": "Программа лояльности",
+        "icon": "https://jolgo.ru/app/src/buttons/loyalty-program-rules.png",
+        "url": "https://jolgo.ru/app/pages/ProgramRulesFull.html"
       }
     ],
     "checksum": "3de0a218a01e809ef216d7df3d7231af"
