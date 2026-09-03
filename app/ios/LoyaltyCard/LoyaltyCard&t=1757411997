@@ -30,5 +30,11 @@
     "amount_current_month": 0,
     "last_transaction_date": 1712460300,
     "checksum": "6db4ac1bba498269dc1563606afb8a83"
+  },
+  "referral": {
+    "title": "Пригласить друга",
+    "description": "+200 баллов",
+    "url": "https://jolgo.ru/app/pages/Referral.html?cardNumber=3824",
+    "share_text": "Баллы на заправку Вам и другу за заправки на АЗС это просто:\n1. установите приложение по ссылке ниже, \n2. выпустите карту программы лояльности, \n3. введите 1-8KJ2M4P по кнопке Мои промокоды, \n4. приезжайте за топливом и дополнительными баллами  https://jolgo.kg"
   }
 }

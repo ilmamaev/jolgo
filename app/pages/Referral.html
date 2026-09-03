@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="ru-RU">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+    <title>Пригласить друга</title>
+    <meta name="description" content="Пригласить друга">
+    <link rel="stylesheet" type="text/css" href="referral/css/style.min.css?v=1">
+    <script src="referral/js/script.min.js?v=1"></script>
+</head>
+
+<body>
+
+<div class="container">
+    <div class="content howto">
+        <ul>
+            <li>
+                <img class="envelope" src="referral/img/envelope.png" alt="">
+                <p>Дарим Вам и Вашему другу дополнительные баллы<br>«JOLGO»</p>
+            </li>
+            <li>
+                <p class="bonuses">+200 баллов Вам<img src="referral/img/info.svg" class="icon-info" alt="info" onclick="openModal('info')"/></p>
+                <p class="description" id="card-description">
+                    Начислим на карту лояльности
+                </p>
+            </li>
+            <li>
+                <p class="bonuses">+300 баллов Другу</p>
+                <p class="description">
+                    За покупку топлива от 15 л
+                </p>
+            </li>
+        </ul>
+    </div>
+    <div class="footer">
+        <div class="buttons">
+            <a href="gpn://referral" class="button-share">Поделиться ссылкой</a>
+        </div>
+        <div class="rules">
+            Ознакомьтесь с правилами программы<br>«Пригласить друга»
+            <a href="https://jolgo.ru/app/pages/PromoInviteFriend.html">здесь</a>
+        </div>
+    </div>
+</div>
+
+<div class="jw-modal-wrapper">
+    <div id="info" class="jw-modal">
+        <div class="jw-modal-body">
+            <h1>Делитесь с друзьями промокодом и ссылкой на скачивание приложения.</h1>
+            <p>
+                Ваш друг должен установить приложение, заправиться топливом
+                на АЗС от 15 л. с применением карты лояльности.
+                После выполнения условий Вам будет начислено +200 баллов, а другу +300 баллов.
+            </p>
+            <div class="buttons">
+                <a class="button-ok" onclick="closeModal()">Понятно</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    var cardNumber = new URLSearchParams(window.location.search).get('cardNumber');
+    if (cardNumber) {
+        document.getElementById('card-description').textContent = 'Начислим на карту *' + cardNumber;
+    }
+</script>
+
+</body>
+</html>
