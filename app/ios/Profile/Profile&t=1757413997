@@ -34,13 +34,13 @@
       },
       "codes": [
         {
-          "name": "Нам по пути",
+          "name": "JOLGO",
           "logo": "",
           "is_internal": true,
           "data": [
             {
               "title": "Персональная рекомендация от Катюши 2",
-              "name": "Нам по пути",
+              "name": "JOLGO",
               "description": "По карте *4232 купите  и получите  % от стоимости товара бонусами",
               "code_type": "text",
               "is_internal": true,
