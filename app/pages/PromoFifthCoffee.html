@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>5-й кофе в подарок</title>
+    <style>
+        :root {
+            --bg: #ffffff;
+            --text: #1c1c1e;
+            --muted: #6b7280;
+            --accent: #009cde;
+            --card: #f5f6f8;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #121212;
+                --text: #f2f2f7;
+                --muted: #9ca3af;
+                --accent: #35b8f0;
+                --card: #1e1e20;
+            }
+        }
+
+        * { box-sizing: border-box; }
+
+        body {
+            margin: 0;
+            padding: 20px 16px 40px;
+            background: var(--bg);
+            color: var(--text);
+            font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        h1 { font-size: 24px; line-height: 1.25; margin: 0 0 8px; }
+        h2 { font-size: 18px; margin: 28px 0 10px; }
+        p { margin: 0 0 12px; }
+        ul { margin: 0 0 12px; padding-left: 20px; }
+        li { margin-bottom: 8px; }
+
+        .period {
+            color: var(--muted);
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+
+        .highlight {
+            background: var(--card);
+            border-left: 3px solid var(--accent);
+            border-radius: 8px;
+            padding: 14px 16px;
+            margin: 20px 0;
+        }
+
+        .note { color: var(--muted); font-size: 14px; }
+    </style>
+</head>
+<body>
+    <h1>5-й кофе в подарок</h1>
+    <p class="period">Период проведения: с 01.08.2024 по 31.12.2026</p>
+
+    <p>
+        Покупайте акционный кофе на АЗС JOLGO с картой лояльности
+        и получайте каждую пятую чашку в подарок.
+    </p>
+
+    <div class="highlight">
+        После покупки 4 чашек кофе на карту начисляется <strong>179 баллов</strong> –
+        это стоимость капучино 0,3 л. 1 балл равен 1 сому.
+    </div>
+
+    <h2>Как участвовать</h2>
+    <ul>
+        <li>Покажите карту лояльности JOLGO при каждой покупке кофе.</li>
+        <li>Купите 4 чашки акционного кофе.</li>
+        <li>Через 30 минут после покупки четвёртой чашки на карту придут баллы за пятую.</li>
+    </ul>
+
+    <p class="note">
+        Акция не является лотереей. Условия действуют на территории Кыргызской Республики.
+    </p>
+</body>
+</html>

@@ -29,7 +29,7 @@
       "name": "При покупке 4-х чашек кофе, 5-ая чашка -Капучино 0,3 в виде 179 баллов в подарок!",
       "image": "https://jolgo.ru/app/src/promotions/promo-fifth-coffee.png",
       "image_ratio": 1.6363636363636,
-      "url": "https://jolgo.kg/ru/actions/129",
+      "url": "https://jolgo.ru/app/pages/PromoFifthCoffee.html",
       "active_from": "01.08.2024 00:00:00",
       "active_from_unix": 1722459600,
       "active_to": "31.12.2026 23:59:59",
